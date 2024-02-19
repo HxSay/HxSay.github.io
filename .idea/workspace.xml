@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]新增浏览页面的侧边栏，后续继续优化">
-      <change beforePath="$PROJECT_DIR$/.github/pages.yml" beforeDir="false" />
-    </list>
+    <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]删除不需要的主题" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708315608614</updated>
-      <workItem from="1708315610024" duration="26548000" />
+      <workItem from="1708315610024" duration="26848000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]新增二级目录文章测试">
       <created>1708315696708</created>
@@ -135,7 +133,21 @@
       <option name="project" value="LOCAL" />
       <updated>1708349279057</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="[feat]新增浏览页面的侧边栏，后续继续优化">
+      <created>1708349692341</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1708349692341</updated>
+    </task>
+    <task id="LOCAL-00014" summary="[feat]删除不需要的主题">
+      <created>1708349853341</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1708349853341</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +168,7 @@
     <MESSAGE value="[feat]新增二级目录文章测试" />
     <MESSAGE value="[feat]新增二级目录文章测试,更改主题为bmw" />
     <MESSAGE value="[feat]新增浏览页面的侧边栏，后续继续优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat]新增浏览页面的侧边栏，后续继续优化" />
+    <MESSAGE value="[feat]删除不需要的主题" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat]删除不需要的主题" />
   </component>
 </project>
