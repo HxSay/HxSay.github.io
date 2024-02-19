@@ -42,10 +42,10 @@ menu:
 # Website start time.
 # 站点运行开始时间.
 time:
-  enable: false
-  year: 2019 # 年份
-  month: 06 # 月份
-  date: 28 # 日期
+  enable: true
+  year: 2024 # 年份
+  month: 02 # 月份
+  date: 19 # 日期
   hour: 00 # 小时
   minute: 00 # 分钟
   second: 00 # 秒
