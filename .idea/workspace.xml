@@ -1,127 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff3da7d7-1e54-4601-9a2c-edb4a1ca7740" name="Changes" comment="[feat]新增测试blog">
-      <change afterPath="$PROJECT_DIR$/source/css/bb.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/css/gitment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/css/matery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/css/my-gitalk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/css/my.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/js/matery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/js/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/animate/animate.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/aos/aos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/aos/aos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/aplayer/APlayer.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/aplayer/APlayer.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/awesome/css/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/background/canvas-nest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/background/ribbon-dynamic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/background/ribbon-refresh.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/background/ribbon.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/codeBlock/codeBlockFuction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/codeBlock/codeCopy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/codeBlock/codeLang.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/codeBlock/codeShrink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/cryptojs/crypto-js.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/dplayer/DPlayer.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/dplayer/DPlayer.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/echarts/echarts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/gitalk/gitalk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/gitalk/gitalk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/gitment/gitment-default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/gitment/gitment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/instantpage/instantpage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/jqcloud/jqcloud-1.0.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/jqcloud/jqcloud.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/lightGallery/css/lightgallery.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/lightGallery/fonts/lg.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/lightGallery/fonts/lg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/lightGallery/fonts/lg.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/lightGallery/fonts/lg.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/lightGallery/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/lightGallery/img/video-play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/lightGallery/img/vimeo-play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/lightGallery/img/youtube-play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/lightGallery/js/lightgallery-all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/masonry/masonry.pkgd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/materialize/materialize.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/materialize/materialize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/minivaline/MiniValine.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/others/busuanzi.pure.mini.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/others/clicklove.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/prism/prism.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/scrollprogress/scrollProgress.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/share/css/share.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/share/fonts/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/share/fonts/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/share/fonts/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/share/fonts/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/share/js/jquery.share.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/share/js/social-share.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/tocbot/tocbot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/tocbot/tocbot.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/valine/Valine.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/libs/valine/av-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/banner/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/banner/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/banner/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/banner/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/banner/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/banner/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/banner/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/comment_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/contact.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/featureimages/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/featureimages/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/featureimages/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/featureimages/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/featureimages/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/featureimages/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/featureimages/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/featureimages/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/featureimages/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/featureimages/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/featureimages/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/featureimages/19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/featureimages/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/featureimages/20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/featureimages/21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/featureimages/22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/featureimages/23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/featureimages/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/featureimages/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/featureimages/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/featureimages/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/featureimages/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/featureimages/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/featureimages/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/icp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/reward/alipay.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/medias/reward/wechat.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/汇总8家成都军工央企（第一期）.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/汇总8家成都军工央企（第一期）.md" afterDir="false" />
+    <list default="true" id="ff3da7d7-1e54-4601-9a2c-edb4a1ca7740" name="Changes" comment="[feat]更换blog主题">
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/css/bb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/css/gitment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/css/matery.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/css/my-gitalk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/css/my.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/js/matery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/js/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/animate/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/aos/aos.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/aos/aos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/aplayer/APlayer.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/aplayer/APlayer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/awesome/css/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/awesome/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/background/canvas-nest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/background/ribbon-dynamic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/background/ribbon-refresh.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/background/ribbon.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/codeBlock/codeBlockFuction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/codeBlock/codeCopy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/codeBlock/codeLang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/codeBlock/codeShrink.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/cryptojs/crypto-js.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/dplayer/DPlayer.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/dplayer/DPlayer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/echarts/echarts.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/gitalk/gitalk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/gitalk/gitalk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/gitment/gitment-default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/gitment/gitment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/instantpage/instantpage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/jqcloud/jqcloud-1.0.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/jqcloud/jqcloud.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/lightGallery/css/lightgallery.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/lightGallery/fonts/lg.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/lightGallery/fonts/lg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/lightGallery/fonts/lg.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/lightGallery/fonts/lg.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/lightGallery/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/lightGallery/img/video-play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/lightGallery/img/vimeo-play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/lightGallery/img/youtube-play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/lightGallery/js/lightgallery-all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/masonry/masonry.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/materialize/materialize.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/materialize/materialize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/minivaline/MiniValine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/others/busuanzi.pure.mini.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/others/clicklove.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/prism/prism.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/scrollprogress/scrollProgress.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/share/css/share.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/share/fonts/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/share/fonts/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/share/fonts/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/share/fonts/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/share/js/jquery.share.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/share/js/social-share.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/tocbot/tocbot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/tocbot/tocbot.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/valine/Valine.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/libs/valine/av-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/banner/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/banner/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/banner/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/banner/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/banner/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/banner/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/banner/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/comment_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/contact.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/featureimages/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/featureimages/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/featureimages/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/featureimages/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/featureimages/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/featureimages/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/featureimages/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/featureimages/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/featureimages/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/featureimages/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/featureimages/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/featureimages/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/featureimages/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/featureimages/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/featureimages/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/featureimages/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/featureimages/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/featureimages/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/featureimages/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/featureimages/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/featureimages/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/featureimages/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/featureimages/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/featureimages/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/icp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/reward/alipay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/medias/reward/wechat.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +164,7 @@
       <updated>1708304482887</updated>
       <workItem from="1708304484188" duration="5000" />
       <workItem from="1708304493675" duration="1595000" />
-      <workItem from="1708306209866" duration="3881000" />
+      <workItem from="1708306209866" duration="4222000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]fix bug 2">
       <created>1708306389185</created>
@@ -238,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708309943589</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="[feat]更换blog主题">
+      <created>1708310645061</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708310645061</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +266,8 @@
     <MESSAGE value="[feat]fix bug 2" />
     <MESSAGE value="[feat]fix bug 3" />
     <MESSAGE value="[feat]新增测试blog" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat]新增测试blog" />
+    <MESSAGE value="[feat]更换blog主题" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat]更换blog主题" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
