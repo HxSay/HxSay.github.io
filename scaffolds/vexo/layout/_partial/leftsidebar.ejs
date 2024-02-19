@@ -1,0 +1,23 @@
+<div>
+    <% if (tags && tags.length) { %>
+        <ul>
+            <% tags.each(function(tag) { %>
+                <% site.tags.map(function(tag, index){ %>
+                    <div class="tag-list">
+                        <h3 class="ls-tag-name" id="tag-<%= tag.name %>"><%= tag.name %></h3>
+                        <ul class="ls-tag-preview">
+                        <% tag.posts.map(function(post,index) { %>
+                                <li>
+                                    <a href="<%- config.root %><%- post.path %>"><%- post.title || "Untitled" %></a>
+                                </li>
+                        <% }) %>
+                        </ul>
+                    </div>
+                <% }) %>
+            <% }); %>
+
+        </ul>
+    <% } else { %>
+        <p>No tags found.</p>
+    <% } %>
+</div>
