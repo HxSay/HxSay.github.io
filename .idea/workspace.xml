@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff3da7d7-1e54-4601-9a2c-edb4a1ca7740" name="Changes" comment="[feat]更换blog主题">
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hxsay-blog/.github/dependabot.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hxsay-blog/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hxsay-blog/_config.landscape.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hxsay-blog/_config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hxsay-blog/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hxsay-blog/pnpm-lock.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hxsay-blog/scaffolds/draft.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hxsay-blog/scaffolds/page.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hxsay-blog/scaffolds/post.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hxsay-blog/source/_posts/hello-world.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hxsay-blog/themes/.gitkeep" beforeDir="false" />
+    <list default="true" id="ff3da7d7-1e54-4601-9a2c-edb4a1ca7740" name="Changes" comment="[feat]添加categories 页，即分类页">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/categories/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/categories/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +48,7 @@
       <updated>1708304482887</updated>
       <workItem from="1708304484188" duration="5000" />
       <workItem from="1708304493675" duration="1595000" />
-      <workItem from="1708306209866" duration="5206000" />
+      <workItem from="1708306209866" duration="5678000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]fix bug 2">
       <created>1708306389185</created>
@@ -165,7 +155,21 @@
       <option name="project" value="LOCAL" />
       <updated>1708311407644</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="[feat]更换blog主题,修改blog的简介">
+      <created>1708311866429</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1708311866429</updated>
+    </task>
+    <task id="LOCAL-00017" summary="[feat]添加categories 页，即分类页">
+      <created>1708312178115</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1708312178115</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +193,9 @@
     <MESSAGE value="[feat]fix bug 3" />
     <MESSAGE value="[feat]新增测试blog" />
     <MESSAGE value="[feat]更换blog主题" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat]更换blog主题" />
+    <MESSAGE value="[feat]更换blog主题,修改blog的简介" />
+    <MESSAGE value="[feat]添加categories 页，即分类页" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat]添加categories 页，即分类页" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
