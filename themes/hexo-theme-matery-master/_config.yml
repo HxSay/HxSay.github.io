@@ -5,10 +5,11 @@ menu:
     url: /
     icon: fas fa-home
   成都央国企指南:
+    url: /成都央国企指南
     icon: fas fa-tags
     children:
       - name: 成都央企汇总
-        url: /music
+        url: /成都央企汇总
         icon: fas fa-music
       - name: 央国企面试指南
         url: /movies

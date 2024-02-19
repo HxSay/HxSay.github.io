@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff3da7d7-1e54-4601-9a2c-edb4a1ca7740" name="Changes" comment="[feat]添加categories 页，即分类页">
+    <list default="true" id="ff3da7d7-1e54-4601-9a2c-edb4a1ca7740" name="Changes" comment="[feat]修改导航页面，增加二级标题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery-master/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery-master/_config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +48,7 @@
       <updated>1708304482887</updated>
       <workItem from="1708304484188" duration="5000" />
       <workItem from="1708304493675" duration="1595000" />
-      <workItem from="1708306209866" duration="6432000" />
+      <workItem from="1708306209866" duration="7135000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]fix bug 2">
       <created>1708306389185</created>
@@ -177,7 +176,21 @@
       <option name="project" value="LOCAL" />
       <updated>1708312332420</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="[feat]修改导航页面">
+      <created>1708313093464</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1708313093464</updated>
+    </task>
+    <task id="LOCAL-00020" summary="[feat]修改导航页面，增加二级标题">
+      <created>1708313329080</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1708313329080</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +216,9 @@
     <MESSAGE value="[feat]更换blog主题" />
     <MESSAGE value="[feat]更换blog主题,修改blog的简介" />
     <MESSAGE value="[feat]添加categories 页，即分类页" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat]添加categories 页，即分类页" />
+    <MESSAGE value="[feat]修改导航页面" />
+    <MESSAGE value="[feat]修改导航页面，增加二级标题" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat]修改导航页面，增加二级标题" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
