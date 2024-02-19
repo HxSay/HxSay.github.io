@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff3da7d7-1e54-4601-9a2c-edb4a1ca7740" name="Changes" comment="[feat]fix bug 2">
-      <change beforePath="$PROJECT_DIR$/.github/pages.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/pages.yml" afterDir="false" />
-    </list>
+    <list default="true" id="ff3da7d7-1e54-4601-9a2c-edb4a1ca7740" name="Changes" comment="[feat]fix bug 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +39,7 @@
       <updated>1708304482887</updated>
       <workItem from="1708304484188" duration="5000" />
       <workItem from="1708304493675" duration="1595000" />
-      <workItem from="1708306209866" duration="1698000" />
+      <workItem from="1708306209866" duration="2017000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]fix bug 2">
       <created>1708306389185</created>
@@ -78,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708307628425</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[feat]fix bug 2">
+      <created>1708307935959</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708307935959</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

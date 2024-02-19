@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main # default branch
-
 jobs:
   build:
     runs-on: ubuntu-latest
