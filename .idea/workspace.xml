@@ -3,7 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="ff3da7d7-1e54-4601-9a2c-edb4a1ca7740" name="Changes" comment="[feat]更换blog主题">
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery-master/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery-master/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hxsay-blog/.github/dependabot.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hxsay-blog/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hxsay-blog/_config.landscape.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hxsay-blog/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hxsay-blog/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hxsay-blog/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hxsay-blog/scaffolds/draft.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hxsay-blog/scaffolds/page.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hxsay-blog/scaffolds/post.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hxsay-blog/source/_posts/hello-world.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hxsay-blog/themes/.gitkeep" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +58,7 @@
       <updated>1708304482887</updated>
       <workItem from="1708304484188" duration="5000" />
       <workItem from="1708304493675" duration="1595000" />
-      <workItem from="1708306209866" duration="4761000" />
+      <workItem from="1708306209866" duration="5206000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]fix bug 2">
       <created>1708306389185</created>
@@ -148,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708311131833</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="[feat]更换blog主题">
+      <created>1708311407644</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1708311407644</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
