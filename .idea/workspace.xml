@@ -1,71 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]删除不需要的主题">
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/_config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/_source/about/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/_source/project/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/_source/series/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/_source/tags/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/layout/_partial/archive.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/layout/_partial/catalog.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/layout/_partial/footer.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/layout/_partial/head.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/layout/_partial/header.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/layout/_partial/leftsidebar.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/layout/_partial/nav.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/layout/_partial/pager.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/layout/_partial/search/localsearch_button.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/layout/_partial/search/localsearch_view.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/layout/_partial/tag.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/layout/_partial/top.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/layout/_third-party/google_analytics.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/layout/_third-party/localsearch.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/layout/_third-party/mathjax.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/layout/about.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/layout/archive.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/layout/index.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/layout/layout.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/layout/page.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/layout/project.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/layout/series.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/layout/tags.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/lint.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/css/_config.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/css/_partial/about.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/css/_partial/archive.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/css/_partial/catalog.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/css/_partial/categories.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/css/_partial/footer.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/css/_partial/header.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/css/_partial/markdown.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/css/_partial/nav.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/css/_partial/pager.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/css/_partial/project.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/css/_partial/search.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/css/_partial/tags.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/css/images/alipay.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/css/images/catalog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/css/images/error_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/css/images/escheres.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/css/images/ga.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/css/images/icp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/css/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/css/images/menu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/css/images/top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/css/images/wechat.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/css/plugins/gitment.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/css/style.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/fonts/SourceSansPro.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/js/gitment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/js/local-search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/js/qrious.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/js/script.js" beforeDir="false" />
-    </list>
+    <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]删除不需要的主题" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +25,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/leiqinghua/my/blogs/HxSay.github.io/themes/vexo/source/css/_partial",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -112,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708315608614</updated>
-      <workItem from="1708315610024" duration="27162000" />
+      <workItem from="1708315610024" duration="27345000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]新增二级目录文章测试">
       <created>1708315696708</created>
@@ -226,7 +163,21 @@
       <option name="project" value="LOCAL" />
       <updated>1708350261009</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="[feat]删除不需要的主题">
+      <created>1708350367733</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1708350367733</updated>
+    </task>
+    <task id="LOCAL-00018" summary="[feat]删除不需要的主题">
+      <created>1708350442722</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1708350442722</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +195,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="[feat]新增二级目录文章测试" />
     <MESSAGE value="[feat]新增二级目录文章测试,更改主题为bmw" />
     <MESSAGE value="[feat]新增浏览页面的侧边栏，后续继续优化" />
