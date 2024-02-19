@@ -4,16 +4,16 @@ menu:
   Index:
     url: /
     icon: fas fa-home
-  Tags:
+  成都央国企指南:
     url: /tags
     icon: fas fa-tags
-  Categories:
+  工业物联网技术栈:
     url: /categories
     icon: fas fa-bookmark
   Archives:
     url: /archives
     icon: fas fa-archive
-  About:
+  关于我:
     url: /about
     icon: fas fa-user-circle
   Contact:
@@ -22,6 +22,7 @@ menu:
   Friends:
     url: /friends
     icon: fas fa-address-book
+
   # 二级菜单写法如下
   #Medias:
   #  icon: fas fa-list
@@ -67,7 +68,7 @@ dream:
   enable: true
   showTitle: true
   title: 我的梦想
-  text: 不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。——罗伯·舒乐
+  text: 希望帮助应届生、社会人员等在成都找到合适自己的国企
 
 # Whether to display the musics.
 # 是否在首页显示音乐.
@@ -204,9 +205,8 @@ clicklove:
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
   avatar: /medias/avatar.jpg
-  career: Software Engineer
-  introduction: If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.
-
+  career: 央企程序员
+  introduction: 央企后台程序员，希望帮助每一个人上岸合适自己的国企、央企
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的项目"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
