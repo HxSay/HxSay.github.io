@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff3da7d7-1e54-4601-9a2c-edb4a1ca7740" name="Changes" comment="[feat]fix bug 3">
-      <change beforePath="$PROJECT_DIR$/.github/pages.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/pages.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ff3da7d7-1e54-4601-9a2c-edb4a1ca7740" name="Changes" comment="[feat]fix bug 3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,11 +24,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/leiqinghua/my/blogs/HxSay.github.io",
+    "last_opened_file_path": "/Users/leiqinghua/my/blogs/HxSay.github.io/.github/workflows",
     "nodejs_package_manager_path": "pnpm",
     "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.github/workflows" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,7 +44,7 @@
       <updated>1708304482887</updated>
       <workItem from="1708304484188" duration="5000" />
       <workItem from="1708304493675" duration="1595000" />
-      <workItem from="1708306209866" duration="2669000" />
+      <workItem from="1708306209866" duration="3213000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]fix bug 2">
       <created>1708306389185</created>
@@ -93,7 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1708308551722</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[feat]fix bug 3">
+      <created>1708308955604</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708308955604</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[feat]fix bug 3">
+      <created>1708309040242</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708309040242</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
