@@ -5,14 +5,29 @@ menu:
     url: /
     icon: fas fa-home
   成都央国企指南:
-    url: /tags
     icon: fas fa-tags
+    children:
+      - name: 成都央企汇总
+        url: /music
+        icon: fas fa-music
+      - name: 央国企面试指南
+        url: /movies
+        icon: fas fa-film
+      - name: 央国企知识
+        url: /books
+        icon: fas fa-book
+      - name: 福利待遇分享
+        url: /galleries
+        icon: fas fa-image
+
   工业物联网技术栈:
     url: /categories
     icon: fas fa-bookmark
-  Archives:
+
+  我的副业:
     url: /archives
     icon: fas fa-archive
+
   关于我:
     url: /about
     icon: fas fa-user-circle
