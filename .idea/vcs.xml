@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/bmw" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/book" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/codeteenager" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/hexo-theme-book" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/hexo-theme-fluid" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/hexo-theme-shokaX" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/theme-bmw" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/themes/bmw" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/vexo" vcs="Git" />
+  </component>
+</project>
