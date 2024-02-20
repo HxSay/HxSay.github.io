@@ -1,0 +1,139 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<div class="left-sidebar-container">
+    <% if (tags && tags.length) { %>
+            <% tags.each(function(tag) { %>
+                <% site.tags.map(function(tag, index){ %>
+                <div class="ls-title" id="ls-title">
+                    <p class="ls-tag-name" id="tag-<%= tag.name %>"><%= tag.name %></p>
+                    <i class="fas fa-chevron-right" style="font-size: 12px;"></i> <!-- Font Awesome 箭头图标 -->
+                </div>
+                <ul class="ls-tag-list" style="display: none;">
+                    <ul class="ls-tag-preview">
+                    <% tag.posts.map(function(post,index) { %>
+                            <li>
+                                <a href="<%- config.root %><%- post.path %>"><%- post.title || "Untitled" %></a>
+                            </li>
+                    <% }) %>
+                    </ul>
+                </ul>
+            <% }) %>
+            <% }); %>
+
+    <% } else { %>
+        <p>No tags found.</p>
+    <% } %>
+</div>
+<script>
+    // 获取所有 .ls-title 元素
+    var lsTitles = document.querySelectorAll('.ls-title');
+
+    // 为每个 .ls-title 元素添加点击事件监听器
+    lsTitles.forEach(function(lsTitle) {
+        lsTitle.addEventListener('click', function() {
+            console.log("lfetsidebar.ejs 34")
+            // 切换与当前 .ls-title 元素关联的标签列表的显示状态
+            var lsTagList = lsTitle.nextElementSibling;
+            if (lsTagList.style.display === 'none') {
+                lsTagList.style.display = 'block'; // 显示标签列表
+                lsTitle.classList.add('clicked'); // 添加点击类
+            } else {
+                lsTagList.style.display = 'none'; // 隐藏标签列表
+                lsTitle.classList.remove('clicked'); // 移除点击类
+            }
+        });
+    });
+</script>
+
+<style>
+    .ls-tag-list {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-left: 28px;
+        margin-right: 0;
+        padding: 0;
+    }
+
+    .ls-tag-name {
+        font-size: 1.1em;
+        display: flex;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 0px;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    .ls-tag-name:before {
+        color: color-primary;
+        position: absolute;
+        left: -.7em;
+        top: -2px;
+        font-size: 1.2em;
+        font-weight: 700;
+    }
+
+    .ls-tag-preview {
+        font-size: 1em;
+        padding-left: 0em;
+        align-content: flex-start;
+        align-items: start;
+    }
+
+    .ls-tag-preview li {
+        margin-top: 2px;
+        list-style-type: none; /* 添加这一行来去掉列表项前面的点 */
+        white-space: nowrap; /* 防止文字换行 */
+        overflow: hidden; /* 超出隐藏 */
+        text-overflow: ellipsis; /* 显示省略号 */
+        width: 270px;
+        transition: transform 0.3s ease;
+    }
+
+    .ls-tag-preview li a {
+        border: none;
+        line-height: 28px;
+        background: transparent;
+        color: black;
+        display: inline-block;
+        border-radius: 4px;
+        padding: 0 10px;
+        transition: background .5s;
+    }
+
+    .ls-tag-preview li:hover {
+        transform: scale(1.05);
+    }
+
+    .ls-title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 20px;
+        margin-top: 8px;
+        width: 100%;
+        transition: transform 0.3s ease, filter 0.3s ease; /* 添加过渡效果 */
+    }
+
+    .ls-title:hover {
+        transform: scale(1.05); /* 悬浮时放大 */
+        color: #42b983;
+    }
+
+    .ls-title.clicked {
+        transform: scale(1.05); /* 点击后放大 */
+        color: #42b983;
+    }
+
+    .ls-title.disabled {
+        filter: grayscale(1); /* 灰显 */
+    }
+
+    .left-sidebar-container {
+        width: 270px;
+        align-items: center;
+    }
+
+</style>
