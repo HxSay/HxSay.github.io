@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]删除不需要的主题">
+    <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]左侧栏的下拉和收起完成">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/vexo/source/css/_partial/tags.styl" beforeDir="false" afterPath="$PROJECT_DIR$/scaffolds/vexo/source/css/_partial/tags.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/国企和央企有啥区别.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/国企和央企有啥区别.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/汇总8家成都军工央企（第二期）.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/汇总8家成都军工央企（第二期）.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/zhishi.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/zs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/.gitkeep" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,16 +22,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/leiqinghua/my/blogs/HxSay.github.io/scaffolds&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/leiqinghua/my/blogs/HxSay.github.io/scaffolds",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
+    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/scaffolds" />
@@ -227,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708350594890</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="[feat]左侧栏的下拉和收起完成">
+      <created>1708418852606</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1708418852606</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +256,7 @@
     <MESSAGE value="[feat]新增二级目录文章测试,更改主题为bmw" />
     <MESSAGE value="[feat]新增浏览页面的侧边栏，后续继续优化" />
     <MESSAGE value="[feat]删除不需要的主题" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat]删除不需要的主题" />
+    <MESSAGE value="[feat]左侧栏的下拉和收起完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat]左侧栏的下拉和收起完成" />
   </component>
 </project>
