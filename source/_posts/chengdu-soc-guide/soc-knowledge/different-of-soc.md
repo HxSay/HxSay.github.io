@@ -1,8 +1,8 @@
 ---
 title: 国企和央企有啥区别
 date: 2024-02-19 14:57:53
-categories: [成都央国企指南]
-tags: [央国企知识]
+categories: [chengdu-soc-guide]
+tags: [soc-knowledge]
 ---
 ### 央国企知识｜一文了解国企和央企有啥区别？
 

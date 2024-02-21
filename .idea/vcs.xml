@@ -5,9 +5,13 @@
     <mapping directory="$PROJECT_DIR$/themes/bmw" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/themes/book" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/themes/codeteenager" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/hexo-theme-3-hexo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/themes/hexo-theme-book" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/themes/hexo-theme-fluid" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/themes/hexo-theme-shokaX" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/hexo-theme-stun" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/hexo-theme-tree" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/hexo-theme-yilia" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/themes/theme-bmw" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/themes/themes/bmw" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/themes/vexo" vcs="Git" />

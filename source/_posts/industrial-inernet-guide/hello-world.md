@@ -1,6 +1,7 @@
 ---
 title: Hello World
-categories: [工业互联网技术栈]
+categories: [industrial-inernet-guide]
+tags: [industrial-inernet-guide]
 type: [chidren]
 treepath: [0 1 2]
 ---

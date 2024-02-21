@@ -1,8 +1,8 @@
 ---
 title: 汇总8家成都军工央企（第二期）
 date: 2024-02-19 14:38:03
-categories: [成都央国企指南]
-tags: [成都军工央企]
+categories: [chengdu-soc-guide]
+tags: [chengdu-defence-soc]
 ---
 
 ## ​1. 中国航发成都
