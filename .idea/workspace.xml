@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]左侧栏根据路径分级的功能完成">
+    <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]左侧边栏的分级和点击展开高亮功能实现完成">
+      <change afterPath="$PROJECT_DIR$/source/_posts/央国企名录/1.央国企名录简介/央国企名录简介.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/央国企知识/1.央国企知识简介/央国企知识简介.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/1.央国企面试指南简介/央国企面试指南简介.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/chengdu-soc-guide/chengdu-defence-soc/chengdu-defence-soc-no1.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企指南/成都军工央企/chengdu-defence-soc-no1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/chengdu-soc-guide/chengdu-defence-soc/chengdu-defence-soc-no2.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企指南/成都军工央企/chengdu-defence-soc-no2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/chengdu-soc-guide/chengdu-defence-soc/chengdu-defence-soc-no3.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企指南/成都军工央企/chengdu-defence-soc-no3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/chengdu-soc-guide/directory-of-soc/2024-center-enterpries-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企指南/央国企名录/2024-center-enterpries-list.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/chengdu-soc-guide/directory-of-soc/2024-finance-center-enterpries-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企指南/央国企名录/2024-finance-center-enterpries-list.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/chengdu-soc-guide/soc-knowledge/different-of-soc.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企指南/央国企知识/different-of-soc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/industrial-inernet-guide/hello-world.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/industrial-inernet-guide/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企指南/央国企名录/2024-center-enterpries-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/2.中央企业名录/2024-center-enterpries-list.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企指南/央国企名录/2024-finance-center-enterpries-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/2.中央企业名录/2024-finance-center-enterpries-list.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企指南/央国企知识/different-of-soc.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企知识/2.央国企知识/different-of-soc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企指南/成都军工央企/chengdu-defence-soc-no1.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都军工央企/chengdu-defence-soc-no1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企指南/成都军工央企/chengdu-defence-soc-no2.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都军工央企/chengdu-defence-soc-no2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企指南/成都军工央企/chengdu-defence-soc-no3.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都军工央企/chengdu-defence-soc-no3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/chengdu-soc-guide/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/industrial-inernet-guide/index.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,30 +41,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/leiqinghua/my/blogs/HxSay.github.io/source/_posts&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/leiqinghua/my/blogs/HxSay.github.io/source/_posts/央国企知识/央国企知识简介",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
+    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/_posts/央国企知识/央国企知识简介" />
+      <recent name="$PROJECT_DIR$/source/_posts/央国企名录/央国企名录简介" />
       <recent name="$PROJECT_DIR$/source/_posts" />
       <recent name="$PROJECT_DIR$/scaffolds" />
       <recent name="$PROJECT_DIR$/themes/vexo/source/css/_partial" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/source/_posts/industrial-inernet-guide" />
-      <recent name="$PROJECT_DIR$/themes/vexo" />
-      <recent name="$PROJECT_DIR$/themes" />
-      <recent name="$PROJECT_DIR$/source/_posts/成都央国企指南/央国企知识" />
-      <recent name="$PROJECT_DIR$/source/_posts/成都央国企指南/央国企名录" />
+      <recent name="$PROJECT_DIR$/source/_posts/央国企知识/央国企知识" />
+      <recent name="$PROJECT_DIR$/source/_posts/央国企名录/中央企业名录" />
+      <recent name="$PROJECT_DIR$/source/_posts/央国企名录" />
+      <recent name="$PROJECT_DIR$/source/_posts" />
+      <recent name="$PROJECT_DIR$/source/_posts/央国企指南" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -71,7 +80,7 @@
       <workItem from="1708315610024" duration="29020000" />
       <workItem from="1708389283756" duration="6744000" />
       <workItem from="1708480590801" duration="1742000" />
-      <workItem from="1708532736156" duration="2294000" />
+      <workItem from="1708532736156" duration="15763000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]新增二级目录文章测试">
       <created>1708315696708</created>
@@ -262,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708523605925</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="[feat]左侧边栏的分级和点击展开高亮功能实现完成">
+      <created>1708563706883</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1708563706883</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +304,7 @@
     <MESSAGE value="[feat]删除不需要的主题" />
     <MESSAGE value="[feat]左侧栏的下拉和收起完成" />
     <MESSAGE value="[feat]左侧栏根据路径分级的功能完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat]左侧栏根据路径分级的功能完成" />
+    <MESSAGE value="[feat]左侧边栏的分级和点击展开高亮功能实现完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat]左侧边栏的分级和点击展开高亮功能实现完成" />
   </component>
 </project>
