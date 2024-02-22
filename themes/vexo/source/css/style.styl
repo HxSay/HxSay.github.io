@@ -1,7 +1,7 @@
 @import "_config"
-@font-face
-  font-family: 'Source Sans Pro'
-  src: url('source/fonts/SourceSansPro.ttf')
+//@font-face
+//  font-family: 'Source Sans Pro'
+//  src: url('source/fonts/SourceSansPro.ttf')
 
 ::selection
   background: color-primary
@@ -53,28 +53,27 @@ pre
   padding: 2em 1em
   margin: 0 auto
   height: 100%
-  width : 90%
+  width : 100%
   position: relative
   opacity: 0
   transform: translateY(-20px)
   transition: all 0.4s
 
 .left-sidebar
-  //flex : 0 0 auto;
   position fixed;
-  border-right: 1px solid #ccc; /* 添加右侧边框 */
   overflow-y: auto; /* 允许垂直滚动 */
-  top: 300px;
+  top: 300px
   left: 0;
   width: 300px;
   height: 100vh;
 
 .scrollable-content
+  position :absolute
+  top : 300px;
   overflow-y: auto; /* 允许垂直滚动 */
   max-height: calc(100vh - 20px); /* 设置内容区域最大高度为视口高度减去一些间距 */
   padding: 10px; /* 添加一些内边距 */
   width: 100%
-
 
 .hljs
   background: none !important
@@ -182,7 +181,6 @@ h2.article-head
 .post-article
   margin-top: 0
   margin-left: 250px
-  width: 100%
   display: inline-grid
   padding-left : 3em
 

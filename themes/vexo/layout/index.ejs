@@ -1,26 +1,107 @@
 <main class="app-body">
-  <% page.posts.each(function(post) { %>
-    <article class="article-card">
-      <h2 class="article-head">
-        <a href="<%- url_for(post.path) %>"><%- post.title %></a>
-      </h2>
-      <p class="article-date"><%- date(post.date, "LL") %></p>
-      <% if (post.tags && post.tags.length) { %>
-        <%- partial('_partial/tag', { tags: post.tags }) %>
-      <% } %>
-      <div class="article-summary">
-        <% if (post.excerpt) { %>
-          <%- post.excerpt %>
-        <% } else { %>
-          <%- truncate(strip_html(post.content), { length: 150, omission: ' ...' }) %>
-        <% } %>
-      </div>
-      <a class="more" href="<%- url_for(post.path) %>"><%- theme.excerpt_link %></a>
-    </article>
-  <% }) %>
 
-  <% if (page.total > 1){ %>
-    <%- partial('_partial/pager') %>
-  <% } %>
+    <div class="top-content-wrapper">
+        <img src="css/images/logo.png" id="top-content-img" alt="not find">
+        <div class="sub-wraper">
+            <h1 class="top-title ">浣熊say & 央国企面试指南</h1>
+            <p class="top-desc">「央国企知识 + 校招/社招面试指南」帮助大家解决网上知识不系统，进入央国企准备没头绪的问题，助力每个人成功上岸央国企～</p>
+            <p class="top-btns">
+                <a href="<%- url_for(theme.menu. 央国企面试指南.url) %>" class="btn-1">开始阅读</a>
+                <a href="<%- url_for(theme.menu.知识星球.url) %>" class="btn-2">知识星球</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="about-me">
+
+    </div>
+
+<!--  <% page.posts.each(function(post) { %>-->
+<!--    <article class="article-card">-->
+<!--      <h2 class="article-head">-->
+<!--        <a href="<%- url_for(post.path) %>"><%- post.title %></a>-->
+<!--      </h2>-->
+<!--      <p class="article-date"><%- date(post.date, "LL") %></p>-->
+<!--      <% if (post.tags && post.tags.length) { %>-->
+<!--        <%- partial('_partial/tag', { tags: post.tags }) %>-->
+<!--      <% } %>-->
+<!--      <div class="article-summary">-->
+<!--        <% if (post.excerpt) { %>-->
+<!--          <%- post.excerpt %>-->
+<!--        <% } else { %>-->
+<!--          <%- truncate(strip_html(post.content), { length: 150, omission: ' ...' }) %>-->
+<!--        <% } %>-->
+<!--      </div>-->
+<!--      <a class="more" href="<%- url_for(post.path) %>"><%- theme.excerpt_link %></a>-->
+<!--    </article>-->
+<!--  <% }) %>-->
+
+<!--  <% if (page.total > 1){ %>-->
+<!--    <%- partial('_partial/pager') %>-->
+<!--  <% } %>-->
 </main>
 
+<style>
+    .top-content-wrapper{
+        display: flex;
+        flex-direction: row;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 50px;
+        align-items: center;
+    }
+    .sub-wraper{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+    .top-title{
+        display: block;
+        transition: transform 0.25s ease-in-out 0.04s, opacity 0.25s ;
+        transform: translateX(0px);
+        opacity: 1;
+        color: #42b983;
+        font-size: 3em;
+    }
+    .top-desc{
+        display: block;
+        transition: transform 0.25s ease-in-out 0.04s, opacity 0.25s ;
+        transform: translateX(0px);
+        opacity: 1;
+        font-size: 1.5em;
+    }
+    .top-btns{
+        display: flex;
+        gap: 100px; /* 设置按钮之间的间距 */
+        margin-left: 150px;
+        margin-top: 50px;
+        transition: transform 0.25s ease-in-out 0.04s, opacity 0.25s ;
+        transform: translateX(0px);
+        opacity: 1;
+    }
+
+    .top-btns a {
+        display: inline-block;
+        padding: 10px 20px; /* 设置按钮的内边距 */
+        border-radius: 50px; /* 设置按钮为椭圆形 */
+        color: #fff; /* 设置按钮文本颜色 */
+        text-decoration: none; /* 去除按钮的下划线 */
+        transition: background-color 0.3s; /* 设置背景颜色变化的过渡效果 */
+    }
+
+    .top-btns .btn-1 {
+        background-color: #42b983; /* 设置第一个按钮的背景颜色 */
+        font-size: 1.2em;
+    }
+
+    .top-btns .btn-2 {
+        background-color: #007bff; /* 设置第二个按钮的背景颜色 */
+        font-size: 1.2em;
+    }
+
+    .top-btns a:hover {
+        filter: brightness(85%); /* 鼠标悬停时按钮变暗 */
+    }
+
+
+</style>

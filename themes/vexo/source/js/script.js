@@ -1,5 +1,5 @@
 (function ($) {
-  // console.log('© Theme-Vexo | https://github.com/yanm1ng/hexo-theme-vexo')
+  console.log('© Theme-Vexo | https://github.com/yanm1ng/hexo-theme-vexo')
   var app = $('.app-body')
   var header = $('.header')
   var banner = document.getElementById('article-banner') || false
@@ -8,6 +8,9 @@
   var catalog = $('.catalog-container .toc-main')
   var leftSidebar = document.getElementById('left-sidebar') || false
   var isOpen = false
+
+  console.log("scripts run...")
+
 
   $(document).ready(function () {
     NProgress.start()
@@ -37,7 +40,6 @@
   }
 
   $('.menu').on('click', function () {
-    console.log("menu clicked")
     if (!header.hasClass('fixed-header') || isOpen) {
       header.toggleClass('fixed-header')
       isOpen = !isOpen
@@ -46,17 +48,27 @@
   })
 
   $('#tag-cloud a').on('click', function () {
-    console("tag-cloud a cliked!")
     var list = $('.tag-list')
     var name = $(this).data('name').replace(/[\ \'\/\+\#]/gi, "\\$&")
-    var maoH = list.find('#' + name).offset().top
-    $('html,body').animate({
-      scrollTop: maoH - header.height()
-    }, 500)
+    // var maoH = list.find('#' + name).offset().top
+    // $('html,body').animate({
+    //   scrollTop: maoH - header.height()
+    // }, 500)
   })
 
+  $('a').on('click', function () {
+    var herf = $(this).attr('href'); // 获取链接的href属性值
+    if(herf){
+      var parts = herf.split("/")
+      if(parts.length === 2){ //这里说明是一级目录，即menu
+        localStorage.setItem("currentMenu", herf);
+      }
+    }
+    console.log("currentMenu: " + localStorage.getItem("currentMenu") );
+  });
+
+
   $('#category-cloud a').on('click', function () {
-    console("category-cloud a cliked!")
     var list = $('.category-list')
     var name = $(this).data('name').replace(/[\ \'\/\+\#]/gi, "\\$&")
     var maoH = list.find('#' + name).offset().top
@@ -122,7 +134,6 @@
         // var marginTopValue = 500; // 计算marginTop的值
         leftSidebar.style.top = marginTopValue + "px"; // 设置左侧边栏的 marginTop 为 90
       }
-
     }
   })
 })(jQuery)

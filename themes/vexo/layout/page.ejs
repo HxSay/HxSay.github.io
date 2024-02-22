@@ -1,3 +1,8 @@
+<script>
+  var currentMenu = localStorage.getItem("currentMenu")
+  console.log("page currentMenu: " + localStorage.getItem("currentMenu") );
+</script>
+
 <div id="article-banner">
   <h2><%- page.title %></h2>
   <p class="post-date"><%- date(page.date, "YYYY-MM-DD") %></p>
@@ -8,15 +13,11 @@
 
 <main class="app-body flex-box">
   <div class="left-sidebar" id="left-sidebar">
-    <div class="scrollable-content">
-      <%- fragment_cache('global_tags', function(){
-        return partial('_partial/leftsidebar', { site: site, tags: page.tags });
-      }) %>
-    </div>
+       <%- partial('_partial/leftsidebar', { site: site, path: page.path });%>
   </div>
   <!-- Article START -->
   <article class="post-article">
-    <section class="markdown-content"><%- page.content %></section>
+    <section class="markdown-content" style="min-width: 50vw;"><%- page.content %></section>
     <!-- Tags START -->
     <% if (page.tags && page.tags.length) { %>
       <div class="tags">

@@ -5,13 +5,33 @@ keyword: hexo-theme, vuejs
 excerpt_link: Read more
 
 menu:
- 主页: /archives/
- 成都央国企指南: /成都央国企指南/
- 工业互联网技术栈: /工业互联网技术栈/
- 我的副业: /archives/
- 公众号: /tags/
- 知识星球: /archives/
- 关于我: /about/
+ 主页:         # 主页
+  url: index   # 主页url
+
+ 央国企面试指南:
+  url:  央国企面试指南/1.央国企面试指南简介/央国企面试指南简介
+
+ 央国企知识:
+  url: 央国企知识/1.央国企知识简介/央国企知识简介
+
+ 央国企名录:
+  url: 央国企名录/1.央国企名录简介/央国企名录简介
+
+ 我的副业:
+  url: 央国企指南
+
+ 公众号:
+  url: tags
+
+ 知识星球:
+  url: archives
+
+ 关于我:        #关于
+  url: about
+
+tagMap:
+ 成都央国企指南:
+
 
 # highlight
 highlight:

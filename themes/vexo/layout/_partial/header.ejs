@@ -1,3 +1,8 @@
+<script>
+    var currentMenu = localStorage.getItem("currentMenu")
+    console.log("header currentMenu: " + localStorage.getItem("currentMenu") );
+</script>
+
 <header class="header fixed-header">
   <div class="header-container">
     <a class="home-link" href="<%- url_for() %>">
@@ -6,12 +11,13 @@
     </a>
     <ul class="right-list">
       <% for(name in theme.menu) { %>
+
         <li class="list-item">
-          <% if (url_for(theme.menu[name]) == '/' + path.replace('/index.html', '') || (url_for(theme.menu[name]) == '/' && is_home())) { %>
-            <a href="<%- url_for(theme.menu[name]) %>" class="item-link active"><%- name %></a>
+          <% if (url_for(theme.menu[name].url) == '/' + path.replace('/index.html', '') || (url_for(theme.menu[name].url) == '/' && is_home())) { %>
+                <a href="<%- url_for(theme.menu[name].url) %>" class="item-link active"><%- name %></a>
           <% } else { %>
-            <a href="<%- url_for(theme.menu[name]) %>" class="item-link"><%- name %></a>
-          <% } %>
+            <a href="<%- url_for(theme.menu[name].url) %>" class="item-link"><%- name %></a>
+              <% } %>
         </li>
       <% } %>
       <% if (theme.local_search.enable == true) { %>
@@ -27,10 +33,10 @@
       <ul class="menu-list">
         <% for(name in theme.menu) { %>
           <li class="menu-item">
-            <% if (url_for(theme.menu[name]) == '/' + path.replace('/index.html', '') || (url_for(theme.menu[name]) == '/' && is_home())) { %>
-              <a href="<%- url_for(theme.menu[name]) %>" class="menu-link mobile-active"><%- name %></a>
+            <% if (url_for(theme.menu[name].url) == '/' + path.replace('/index.html', '') || (url_for(theme.menu[name].url) == '/' && is_home())) { %>
+              <a href="<%- config.root + theme.menu[name].url%>" class="menu-link mobile-active"><%- "menu-"+name %></a>
             <% } else { %>
-              <a href="<%- url_for(theme.menu[name]) %>" class="menu-link"><%- name %></a>
+                    <a href="<%- config.root + theme.menu[name].url%>" class="menu-link"><%- name %></a>
             <% } %>
           </li>
         <% } %>
@@ -41,3 +47,4 @@
     <% } %>
   </div>
 </header>
+

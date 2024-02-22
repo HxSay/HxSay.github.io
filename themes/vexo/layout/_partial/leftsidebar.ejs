@@ -1,37 +1,107 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-<div class="left-sidebar-container">
-    <% if (tags && tags.length) { %>
-            <% tags.each(function(tag) { %>
-                <% site.tags.map(function(tag, index){ %>
-                <div class="ls-title" id="ls-title">
-                    <p class="ls-tag-name" id="tag-<%= tag.name %>"><%= tag.name %></p>
-                    <i class="fas fa-chevron-right" style="font-size: 12px;"></i> <!-- Font Awesome 箭头图标 -->
+<aside class="left-sidebar-container">
+    <%
+    var pathSplits = path.split('/').filter(function(item) {
+        return item.trim() !== '';
+    });
+    var root = pathSplits[0];   //当前页面的根路径,一级目录
+    var sub = pathSplits[1];    //二级目录
+    if (root && sub) {
+        // 筛选出根路径为当前根目录的所有文章
+        var postsFilterByRoot = site.posts.filter(function(post) {
+            console.log("postsFilterByRoot post: "+post.path)
+            return post.path.startsWith(root);
+        });
+        // 创建一个对象来存储聚类后的文章
+        var groupedPosts = {};
+        // 遍历筛选结果，并根据二级目录进行聚类
+        postsFilterByRoot.forEach(function(post) {
+            var subPath = post.path.split("/")[1]; // 获取文章的二级目录
+                // 如果当前文章的二级目录等于当前页面的二级目录，则将其添加到对应的聚类中
+                if (!groupedPosts[subPath]) {
+                    groupedPosts[subPath] = []; // 如果该二级目录尚未存在于聚类中，则创建一个新的数组
+                }
+                groupedPosts[subPath].push(post); // 将文章添加到对应的二级目录聚类中
+        });%>
+        <% for (var category in groupedPosts) { %>
+            <% if(category){ %>
+                <div class="ls-title">
+                    <p class="ls-tag-name"><%= category %></p>
+                    <i class="fas fa-chevron-right" style="font-size: 12px;"></i>
                 </div>
-                <ul class="ls-tag-list" style="display: none;">
+                <ul class="ls-tag-list">
                     <ul class="ls-tag-preview">
-                    <% tag.posts.map(function(post,index) { %>
+                        <% groupedPosts[category].forEach(function(post) { %>
                             <li>
                                 <a href="<%- config.root %><%- post.path %>"><%- post.title || "Untitled" %></a>
                             </li>
-                    <% }) %>
+                        <% }) %>
                     </ul>
                 </ul>
-            <% }) %>
-            <% }); %>
+            <%}%>
+        <% } %>
+    <%}%>
 
-    <% } else { %>
-        <p>No tags found.</p>
-    <% } %>
-</div>
+
+</aside>
+
 <script>
-    // 获取所有 .ls-title 元素
-    var lsTitles = document.querySelectorAll('.ls-title');
+    // 获取当前页面的路径
+    var currentPagePath = '<%= page.path %>';
+    var pathSplits = currentPagePath.split('/').filter(function(item) {
+        return item.trim() !== '';
+    });
+    var root = pathSplits[0];   //当前页面的根路径,一级目录
+    var sub = pathSplits[1];    //二级目录
+    var title = pathSplits[2]; //三级目录，为标题
+    console.log("###"+sub)
 
+    var lsTitles = document.querySelectorAll('.ls-title');
     // 为每个 .ls-title 元素添加点击事件监听器
     lsTitles.forEach(function(lsTitle) {
+        // 获取当前 .ls-title 元素关联的标签列表中的所有链接
+        var roots = lsTitle.querySelectorAll('p');
+        // 初始化一个变量，用于检查是否有匹配的链接
+        // 遍历链接，检查是否有链接与当前页面路径匹配
+        roots.forEach(function(p) {
+            // 如果有链接与当前页面路径匹配，则展开与该链接关联的左侧栏并将其标记为选中状态
+            var ptext = p.textContent
+            if(ptext === sub){
+                var lsTagList = lsTitle.nextElementSibling;
+                lsTagList.style.display = 'block';
+                lsTitle.classList.add('clicked');
+                //对于展开的子项目进行遍历，并将cell置为点击态
+                var previewListItems = lsTagList.querySelector('.ls-tag-preview').querySelectorAll('li');
+                previewListItems.forEach(function (li) {
+                    // 获取 li 元素下的 a 标签
+                    var aTag = li.querySelector('a');
+
+                    // 获取 a 标签的 href 属性值
+                    var href = aTag.getAttribute('href');
+
+                    // 使用 split 方法拆分 href，以获取路径的前两个部分
+                    href = href.replace(/\s/g, '');
+                    var splitHref = href.split('/').filter(function(item) {
+                        return item.trim() !== '';
+                    });
+
+                    // 获取前两个部分并进行拼接
+                    var liRoot = splitHref[0];
+
+                    var liSub = splitHref[1];
+
+                    var liTitle = splitHref[2]
+
+                    if(liTitle && title && liTitle === title){
+                        aTag.classList.add('clicked');
+                    }
+
+                 })
+            }
+        });
+
         lsTitle.addEventListener('click', function() {
-            console.log("lfetsidebar.ejs 34")
             // 切换与当前 .ls-title 元素关联的标签列表的显示状态
             var lsTagList = lsTitle.nextElementSibling;
             if (lsTagList.style.display === 'none') {
@@ -47,12 +117,12 @@
 
 <style>
     .ls-tag-list {
-        display: flex;
         flex-direction: row;
         width: 100%;
         margin-left: 28px;
         margin-right: 0;
         padding: 0;
+        display: none;
     }
 
     .ls-tag-name {
@@ -66,7 +136,7 @@
     }
 
     .ls-tag-name:before {
-        color: color-primary;
+        color: white;
         position: absolute;
         left: -.7em;
         top: -2px;
@@ -102,8 +172,14 @@
         transition: background .5s;
     }
 
-    .ls-tag-preview li:hover {
+    .ls-tag-preview li a:hover {
         transform: scale(1.05);
+        color: #42b983;
+    }
+
+    .ls-tag-preview li a.clicked {
+        transform: scale(1.05); /* 点击后放大 */
+        color: #42b983;
     }
 
     .ls-title {
