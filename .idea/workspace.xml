@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]完成整个blog网站最基本功能的开发，择机可以发布了">
-      <change afterPath="$PROJECT_DIR$/source/images/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/CNAME" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/4.成都军工央企/chengdu-defence-soc-no2.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/4.成都军工央企/chengdu-defence-soc-no2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企知识/2.央国企知识/different-of-soc.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企知识/2.央国企知识/different-of-soc.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企面试指南/2.军工央企面试指南/1.中航工业成飞132应聘流程以及面试问题解析.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/2.军工央企面试指南/1.中航工业成飞132应聘流程以及面试问题解析.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/zs.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/zsxq-chengdu.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +69,8 @@
       <workItem from="1708389283756" duration="6744000" />
       <workItem from="1708480590801" duration="1742000" />
       <workItem from="1708532736156" duration="18095000" />
-      <workItem from="1708586874467" duration="6673000" />
+      <workItem from="1708586874467" duration="6752000" />
+      <workItem from="1708647787350" duration="709000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]新增二级目录文章测试">
       <created>1708315696708</created>
