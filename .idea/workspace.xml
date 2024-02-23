@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]完成整个blog网站最基本功能的开发，择机可以发布了">
-      <change afterPath="$PROJECT_DIR$/source/CNAME" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]改成自己的域名访问" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +67,7 @@
       <workItem from="1708480590801" duration="1742000" />
       <workItem from="1708532736156" duration="18095000" />
       <workItem from="1708586874467" duration="6752000" />
-      <workItem from="1708647787350" duration="709000" />
+      <workItem from="1708647787350" duration="1310000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]新增二级目录文章测试">
       <created>1708315696708</created>
@@ -282,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708588126045</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="[feat]改成自己的域名访问">
+      <created>1708649697349</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1708649697349</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,6 +314,7 @@
     <MESSAGE value="[feat]左侧栏根据路径分级的功能完成" />
     <MESSAGE value="[feat]左侧边栏的分级和点击展开高亮功能实现完成" />
     <MESSAGE value="[feat]完成整个blog网站最基本功能的开发，择机可以发布了" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat]完成整个blog网站最基本功能的开发，择机可以发布了" />
+    <MESSAGE value="[feat]改成自己的域名访问" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat]改成自己的域名访问" />
   </component>
 </project>
