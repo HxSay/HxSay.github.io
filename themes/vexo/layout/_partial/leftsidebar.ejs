@@ -28,7 +28,6 @@
             <% if(category){ %>
                 <div class="ls-title">
                     <p class="ls-tag-name"><%= category %></p>
-                    <i class="fas fa-chevron-right" style="font-size: 12px;"></i>
                 </div>
                 <ul class="ls-tag-list">
                     <ul class="ls-tag-preview">
@@ -126,7 +125,7 @@
     }
 
     .ls-tag-name {
-        font-size: 1.1em;
+        font-size: 1.3em;
         display: flex;
         text-align: left;
         margin-left: 20px;
@@ -152,7 +151,8 @@
     }
 
     .ls-tag-preview li {
-        margin-top: 2px;
+        margin-top: 12px;
+        margin-bottom: 12px;
         list-style-type: none; /* 添加这一行来去掉列表项前面的点 */
         /*white-space: nowrap; !* 防止文字换行 *!*/
         /*overflow: hidden; !* 超出隐藏 *!*/
@@ -163,18 +163,16 @@
 
     .ls-tag-preview li a {
         border: none;
-        line-height: 28px;
         background: transparent;
         color: black;
         display: inline-block;
         border-radius: 4px;
-        padding: 0 10px;
         transition: background .5s;
     }
 
     .ls-tag-preview li a:hover {
         transform: scale(1.05);
-        color: #42b983;
+        /*color: #42b983;*/
     }
 
     .ls-tag-preview li a.clicked {
@@ -195,7 +193,7 @@
 
     .ls-title:hover {
         transform: scale(1.05); /* 悬浮时放大 */
-        color: #42b983;
+        /*color: #42b983;!**!*/
     }
 
     .ls-title.clicked {
@@ -208,7 +206,6 @@
     }
 
     .left-sidebar-container {
-        width: 270px;
         align-items: center;
     }
 

@@ -1,6 +1,7 @@
 .catalog-container
   display: block
   margin-left: 30px
+  margin-right 3em
   flex-basis: 280px
   -webkit-flex-basis: 280px
   flex-shrink: 0
@@ -13,12 +14,14 @@
   .toc-main
     padding-left: 30px
     border-left: 1px solid color-border
-    width: 280px
+    width: 270px
     box-sizing: border-box
     .toc-title
       font-size: 1.2em
       position: relative
       padding-left: 28px
+      //&:hover
+      //  background: rgb(0, 133, 161)
       &:before
         content: ''
         position: absolute
@@ -40,3 +43,10 @@
     li
       list-style-type: none
       line-height: 1.5
+      margin-top : 12px
+
+
+.toc-nav-text
+  color : black
+  &:hover
+    color: #42b983;

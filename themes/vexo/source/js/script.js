@@ -89,7 +89,6 @@
 
   $('.toc-nav a').on('click', function (e) {
     e.preventDefault()
-    console("toc-nav a cliked!")
     var catalogTarget = e.currentTarget
     // var scrollTarget = $(catalogTarget.getAttribute('href'))
     var scrollTarget = $(decodeURIComponent(catalogTarget.getAttribute('href')))
