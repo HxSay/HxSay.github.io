@@ -38,7 +38,7 @@
         <% for (var category in groupedPosts) { %>
             <% if(category){ %>
                 <div class="ls-title">
-                    <i class="fas fa-icon-name"></i>
+                    <i class="fas fa-icon-name">#</i>
                     <p class="ls-tag-name"><%= category.replace(/^\d\./, "");  %></p>
                     <i class="fas fa-chevron-right" id="arrow-icon"></i>
                 </div>
@@ -116,7 +116,7 @@
         lsTitle.addEventListener('click', function() {
             // 切换与当前 .ls-title 元素关联的标签列表的显示状态
             var lsTagList = lsTitle.nextElementSibling;
-            var arrowIcon = document.querySelector('#arrow-icon');
+            var arrowIcon = lsTitle.querySelector('#arrow-icon');
             if (lsTagList.style.display === 'none') {
                 lsTagList.style.display = 'block'; // 显示标签列表
                 lsTitle.classList.add('clicked'); // 添加点击类
@@ -141,7 +141,7 @@
     }
 
     .ls-tag-name {
-        font-size: 1.3em;
+        font-size: 1.1em;
         display: flex;
         text-align: left;
         margin-top: 0;
@@ -205,7 +205,7 @@
         white-space: nowrap;
     }
 
-    .ls-title :hover {
+    .ls-title:hover {
         transform: scale(1.05); /* 悬浮时放大 */
         /*color: #42b983;!**!*/
     }
@@ -226,6 +226,7 @@
     #arrow-icon {
         margin-left: auto; /* 将箭头图标推到右侧 */
         transition: transform 0.3s ease; /* 添加过渡效果 */
+        font-size: 12px;
     }
 
 </style>
