@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://hxsay.github.io/
+url: http://42.193.22.180/
 root: /
 #permalink: :year/:month/:day/:title/
 permalink: :title/
@@ -106,9 +106,11 @@ theme: vexo
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/HxSay/HxSay.github.io
+#  repo: https://github.com/HxSay/HxSay.github.io
+  repo: git@42.193.22.180:/home/git/hexo.git
   # example, https://github.com/hexojs/hexojs.github.io
-  branch: gh-pages
+#  branch: gh-pages
+  branch: master
 
 # 自动生成sitemap
 sitemap:
