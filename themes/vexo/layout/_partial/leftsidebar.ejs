@@ -23,11 +23,24 @@
                     groupedPosts[subPath] = []; // 如果该二级目录尚未存在于聚类中，则创建一个新的数组
                 }
                 groupedPosts[subPath].push(post); // 将文章添加到对应的二级目录聚类中
-        });%>
+        });
+        // 将groupedPosts按照点前面的数字排序
+        if(groupedPosts) {
+            var keys = Object.keys(groupedPosts).sort();
+            var sortedPosts = {}
+            keys.forEach(function (key) {
+                sortedPosts[key] = groupedPosts[key];
+            })
+            groupedPosts = sortedPosts;
+        }
+    %>
+
         <% for (var category in groupedPosts) { %>
             <% if(category){ %>
                 <div class="ls-title">
-                    <p class="ls-tag-name"><%= category %></p>
+                    <i class="fas fa-icon-name"></i>
+                    <p class="ls-tag-name"><%= category.replace(/^\d\./, "");  %></p>
+                    <i class="fas fa-chevron-right" id="arrow-icon"></i>
                 </div>
                 <ul class="ls-tag-list">
                     <ul class="ls-tag-preview">
@@ -52,7 +65,7 @@
         return item.trim() !== '';
     });
     var root = pathSplits[0];   //当前页面的根路径,一级目录
-    var sub = pathSplits[1];    //二级目录
+    var sub = pathSplits[1].replace(/^\d\./, "");    //二级目录
     var title = pathSplits[2]; //三级目录，为标题
     console.log("###"+sub)
 
@@ -103,12 +116,15 @@
         lsTitle.addEventListener('click', function() {
             // 切换与当前 .ls-title 元素关联的标签列表的显示状态
             var lsTagList = lsTitle.nextElementSibling;
+            var arrowIcon = document.querySelector('#arrow-icon');
             if (lsTagList.style.display === 'none') {
                 lsTagList.style.display = 'block'; // 显示标签列表
                 lsTitle.classList.add('clicked'); // 添加点击类
+                arrowIcon.style.transform = 'rotate(90deg)';
             } else {
                 lsTagList.style.display = 'none'; // 隐藏标签列表
                 lsTitle.classList.remove('clicked'); // 移除点击类
+                arrowIcon.style.transform = 'rotate(0deg)';
             }
         });
     });
@@ -128,8 +144,7 @@
         font-size: 1.3em;
         display: flex;
         text-align: left;
-        margin-left: 20px;
-        margin-top: 0px;
+        margin-top: 0;
         align-items: center;
         font-weight: bold;
     }
@@ -183,15 +198,14 @@
     .ls-title {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
         align-items: center;
-        margin-right: 20px;
-        margin-top: 8px;
-        width: 100%;
+        margin-bottom: 8px;
+        width: 270px;
         transition: transform 0.3s ease, filter 0.3s ease; /* 添加过渡效果 */
+        white-space: nowrap;
     }
 
-    .ls-title:hover {
+    .ls-title :hover {
         transform: scale(1.05); /* 悬浮时放大 */
         /*color: #42b983;!**!*/
     }
@@ -207,6 +221,11 @@
 
     .left-sidebar-container {
         align-items: center;
+    }
+
+    #arrow-icon {
+        margin-left: auto; /* 将箭头图标推到右侧 */
+        transition: transform 0.3s ease; /* 添加过渡效果 */
     }
 
 </style>
