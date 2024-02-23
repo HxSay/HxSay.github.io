@@ -109,3 +109,9 @@ deploy:
   repo: https://github.com/HxSay/HxSay.github.io
   # example, https://github.com/hexojs/hexojs.github.io
   branch: gh-pages
+
+# 自动生成sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
