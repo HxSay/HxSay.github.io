@@ -1,53 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]一些修改">
-      <change afterPath="$PROJECT_DIR$/source/images/No-1129-1981700723173_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-1177-IMG_1757.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-1266-1991700723173_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-1473-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-1541-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-1576-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-1686-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-1711-2011700723250_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-1752-IMG_1954.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-1817-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-1819-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-185-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-1906-IMG_1439.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-2027-IMG_1803.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-2128-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-2160-IMG_1913.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-2355-IMG_1967.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-2380-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-2567-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-38-501698377286_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-380-2681703236304_.pic_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-446-5891707567213_.pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-514-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-5266-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-5391-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-71-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-719-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-773-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-795-IMG_1339.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-981-IMG_1346.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/sckcsjy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/tiaocao.png" afterDir="false" />
+    <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]添加一些文章，和一些修改">
+      <change afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/成都央企名录.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/工业互联网技术栈/4.JVM/Java Class文件构成.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/No-11447-JVM (24).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/No-11770-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/No-15402-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/No-16405-JVM (25).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/No-16496-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/No-17035-JVM (26).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/No-17134-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/No-22909-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/No-7419-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/No-7970-JVM (22).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/No-8661-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/No-9222-image.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企/成都6家电力相关央企.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/【电力】成都6家电力相关央企.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/4.成都军工央企/chengdu-defence-soc-no1.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/chengdu-defence-soc-no1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/4.成都军工央企/chengdu-defence-soc-no2.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/chengdu-defence-soc-no2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/4.成都军工央企/chengdu-defence-soc-no3.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/chengdu-defence-soc-no3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企面试指南/1.央国企面试指南简介/央国企面试指南简介.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/1.央国企面试指南简介/央国企面试指南简介.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企面试指南/2.军工央企面试指南/【成都】中电29所面试问题以及解析.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/3.成都国企面试指南/【成都】中电29所面试问题以及解析.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企面试指南/2.军工央企面试指南/【成都】中航工业成飞132应聘流程以及面试问题解析.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/3.成都国企面试指南/【成都】中航工业成飞132面试指南.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企面试指南/3.社招面试指南/社招跳槽国企（必问）面试题top10解析.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/2.社招面试指南/社招跳槽国企（必问）面试题top10解析.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/zsxq-chengdu2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/4.成都国企名录/成都国企名录.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/4.成都国企名录/成都国企名录.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企面试指南/3.成都国企面试指南/【成都】中电10所面试指南.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/3.成都国企面试指南/【成都】中电10所面试指南.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企面试指南/3.成都国企面试指南/【成都】中电29所面试问题以及解析.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/3.成都国企面试指南/【成都】中电29所面试指南.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +34,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -118,7 +91,7 @@
       <workItem from="1708693823322" duration="341000" />
       <workItem from="1708757757375" duration="2825000" />
       <workItem from="1708834089774" duration="4938000" />
-      <workItem from="1708902658236" duration="14750000" />
+      <workItem from="1708902658236" duration="24760000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]新增二级目录文章测试">
       <created>1708315696708</created>
@@ -344,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708659219396</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="[feat]添加一些文章，和一些修改">
+      <created>1708928249409</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1708928249409</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,6 +354,7 @@
     <MESSAGE value="[feat]完成整个blog网站最基本功能的开发，择机可以发布了" />
     <MESSAGE value="[feat]改成自己的域名访问" />
     <MESSAGE value="[feat]一些修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat]一些修改" />
+    <MESSAGE value="[feat]添加一些文章，和一些修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat]添加一些文章，和一些修改" />
   </component>
 </project>

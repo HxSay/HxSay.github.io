@@ -8,6 +8,8 @@
             <p class="top-btns">
                 <a href="<%- url_for(theme.menu. 央国企面试指南.url) %>" class="btn-1">开始阅读</a>
                 <a href="<%- url_for(theme.menu.知识星球.url) %>" class="btn-2">知识星球</a>
+                <a href="<%- url_for(theme.menu.公众号.url) %>" class="btn-3">微信公众号</a>
+
             </p>
         </div>
     </div>
@@ -72,8 +74,8 @@
     }
     .top-btns{
         display: flex;
-        gap: 100px; /* 设置按钮之间的间距 */
-        margin-left: 150px;
+        gap: 50px; /* 设置按钮之间的间距 */
+        margin-left: 100px;
         margin-top: 50px;
         transition: transform 0.25s ease-in-out 0.04s, opacity 0.25s ;
         transform: translateX(0px);
@@ -96,6 +98,11 @@
 
     .top-btns .btn-2 {
         background-color: #007bff; /* 设置第二个按钮的背景颜色 */
+        font-size: 1.2em;
+    }
+
+    .top-btns .btn-3 {
+        background-color: #FFA500; /* 设置第二个按钮的背景颜色 */
         font-size: 1.2em;
     }
 

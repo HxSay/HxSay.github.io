@@ -122,17 +122,10 @@
     }
     if (scrollTop > 190) {
       catalog.addClass('fixed-toc')
-      if (leftSidebar) {
-        leftSidebar.style.top = 60 + "px"; // 设置左侧边栏的 marginTop 为 90
-      }
-
+      leftSidebar.addClass('fixed-toc')
     } else {
       catalog.removeClass('fixed-toc')
-      if (leftSidebar) {
-        var marginTopValue = 270 - scrollTop; // 计算marginTop的值
-        // var marginTopValue = 500; // 计算marginTop的值
-        leftSidebar.style.top = marginTopValue + "px"; // 设置左侧边栏的 marginTop 为 90
-      }
+      leftSidebar.removeClass('fixed-toc')
     }
   })
 })(jQuery)

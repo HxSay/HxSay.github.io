@@ -1,20 +1,15 @@
-<script>
-  var currentMenu = localStorage.getItem("currentMenu")
-  console.log("page currentMenu: " + localStorage.getItem("currentMenu") );
-</script>
-
 <div id="article-banner">
   <h2><%- page.title %></h2>
-  <p class="post-date"><%- date(page.date, "YYYY-MM-DD") %></p>
+  <div style="display: flex; flex-direction: row; align-items: center">
+    <p class="post-date"><%- date(page.date, "YYYY-MM-DD") %></p>
+  </div>
   <div class="arrow-down">
     <a href="javascript:;"></a>
   </div>
 </div>
 
 <main class="app-body flex-box">
-  <div class="left-sidebar" id="left-sidebar">
-       <%- partial('_partial/leftsidebar', { site: site, path: page.path });%>
-  </div>
+   <%- partial('_partial/leftsidebar', { site: site, path: page.path });%>
   <!-- Article START -->
   <article class="post-article">
     <section class="markdown-content" style="min-width: 50vw;"><%- page.content %></section>
@@ -52,8 +47,9 @@
     <!-- 二维码 START -->
     <% if (theme.qrcode) { %>
       <div class="qrcode">
-        <canvas id="share-qrcode"></canvas>
-        <p class="notice">扫描二维码，分享此文章</p>
+<!--        <canvas id="share-qrcode"></canvas>-->
+        <img src="/images/zsxq-chengdu.png" style="width: 80%; height: auto" />
+        <p class="notice">更多央国企信息、面试辅导、简历修改等，请关注知识星球：[成都央国企指南]</p>
       </div>
     <% } %>
     <!-- 二维码 END -->
@@ -90,6 +86,8 @@
     <%- partial('_partial/catalog') %>
   <% } %>
   <!-- Catalog END -->
+  <button class="global-show-button" style="position: fixed; bottom: 10px; right: 20px;  color: black; padding: 2px; border: none; border-radius: 2px; cursor: pointer;">沉浸模式</button>
+
 </main>
 
 <script>
@@ -196,3 +194,33 @@
     })();
   </script>
 <% } %>
+
+<script>
+  var isHidden = false;
+  var leftSliderBar = document.querySelector('.left-sidebar-container');
+  var globalScreenBtn = document.querySelector('.global-show-button');
+  var catalog = document.querySelector('.catalog-container');
+  var headerContainer = document.querySelector(".header-container")
+  var articleBanner = document.querySelector("#article-banner")
+  var postArticle = document.querySelector(".post-article");
+
+  globalScreenBtn.addEventListener('click', function(event) {
+    if (isHidden) {
+      // 如果元素已经隐藏，则显示它
+      leftSliderBar.style.display = 'block';
+      catalog.style.display = 'block'
+      headerContainer.style.display = 'block'
+      articleBanner.style.display = 'block'
+      postArticle.style.width = '60%';
+      isHidden = false;
+    } else {
+      // 如果元素未隐藏，则隐藏它
+      leftSliderBar.style.display = 'none';
+      catalog.style.display = 'none'
+      headerContainer.style.display = 'none'
+      articleBanner.style.display = 'none'
+      postArticle.style.width = '100%';
+      isHidden = true;
+    }
+  });
+</script>

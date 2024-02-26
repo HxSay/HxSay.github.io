@@ -1,12 +1,12 @@
-author: yanm1ng # 作者
-description: yanm1ng's blog
+author: 浣熊say # 作者
+description: 浣熊say小站&央国企指南，帮助大家一站式快速获取央国企信息，社招、校招央国企不迷路！
 keyword: hexo-theme, vuejs
 
 excerpt_link: Read more
 
 menu:
  主页:         # 主页
-  url: index   # 主页url
+  url: ""   # 主页url
 
  央国企面试指南:
   url:  央国企面试指南/1.央国企面试指南简介/央国企面试指南简介
@@ -17,14 +17,16 @@ menu:
  央国企名录:
   url: 央国企名录/1.央国企名录简介/央国企名录简介
 
- 我的副业:
-  url: 央国企指南
+ 工业互联网技术栈:
+  url: /工业互联网技术栈/1.简介/工业互联网技术栈简介
 
  公众号:
-  url: tags
+  url: about/我的公众号/我的公众号
+#  url: tags
 
  知识星球:
-  url: archives
+  url: about/我的星球/知识星球
+#  url: archives
 
  关于我:        #关于
   url: about/关于我/终于【浣熊say-央国企面试指南】网页版上线了！

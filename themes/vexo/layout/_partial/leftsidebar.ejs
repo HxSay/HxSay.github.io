@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
+<div class="left-sidebar" id="left-sidebar">
 <aside class="left-sidebar-container">
     <%
     var pathSplits = path.split('/').filter(function(item) {
@@ -57,6 +57,7 @@
 
 
 </aside>
+</div>
 
 <script>
     // 获取当前页面的路径
@@ -67,9 +68,11 @@
     var root = pathSplits[0];   //当前页面的根路径,一级目录
     var sub = pathSplits[1].replace(/^\d\./, "");    //二级目录
     var title = pathSplits[2]; //三级目录，为标题
+    var isHidden = false;
     console.log("###"+sub)
 
     var lsTitles = document.querySelectorAll('.ls-title');
+
     // 为每个 .ls-title 元素添加点击事件监听器
     lsTitles.forEach(function(lsTitle) {
         // 获取当前 .ls-title 元素关联的标签列表中的所有链接
@@ -131,6 +134,16 @@
 </script>
 
 <style>
+
+    .left-sidebar{
+        left: 0;
+        /*border-right : 1px solid #ccc;*/
+        height: 1000vh;
+        padding-left: 1em;
+        padding-top: 2em;
+        padding-right: 1em;
+    }
+
     .ls-tag-list {
         flex-direction: row;
         width: 100%;
@@ -138,6 +151,7 @@
         margin-right: 0;
         padding: 0;
         display: none;
+        max-width: 300px;
     }
 
     .ls-tag-name {
@@ -184,7 +198,7 @@
         display: inline-block;
         border-radius: 4px;
         transition: background .5s;
-        margin-right: 10px;
+        margin-right: 35px;
     }
 
     .ls-tag-preview li a:hover {
@@ -229,6 +243,7 @@
         margin-left: auto; /* 将箭头图标推到右侧 */
         transition: transform 0.3s ease; /* 添加过渡效果 */
         font-size: 12px;
+        margin-right: 12px;
     }
 
 </style>
