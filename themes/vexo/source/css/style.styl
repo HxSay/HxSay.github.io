@@ -59,6 +59,10 @@ pre
   opacity: 0
   transform: translateY(-20px)
   transition: all 0.4s
+  @media m-mobile
+    justify-content: center
+    align-items center
+
 
 .hljs
   background: none !important
@@ -291,6 +295,26 @@ h2.article-head
 .opacity
   opacity: 1
   transform: translate(0, 0)
+
+.leftbar-hidden-icon
+  display : flex;
+  flex-direction :row;
+  position fixed;
+  bottom : 50px
+  align-items: start;
+  transition : transform 0.3s;
+
+.set-leftbar-hidden
+  width: 130px;
+  height: 100px
+
+.arrow-right
+  position: fixed;
+  width: 50px; /* 设置图标宽度 */
+  //transform: rotate(180deg); /* 旋转180度 */
+  /* 绘制圆圈 */
+  &:hover
+    transform scale(1.1)
 
 @keyframes shine
   0%, 100%

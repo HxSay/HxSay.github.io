@@ -2,24 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]添加一些文章，和一些修改">
-      <change afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/成都央企名录.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/工业互联网技术栈/4.JVM/Java Class文件构成.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-11447-JVM (24).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-11770-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-15402-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-16405-JVM (25).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-16496-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-17035-JVM (26).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-17134-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-22909-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-7419-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-7970-JVM (22).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-8661-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-9222-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/2.【成都央企】按区域划分.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/7.【中国石化】汇总成都中石化旗下央企.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/No-1550-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/No-2198-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/No-296-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/img_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/img_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/img_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/img_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/sdasdimg.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/4.成都国企名录/成都国企名录.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/4.成都国企名录/成都国企名录.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企面试指南/3.成都国企面试指南/【成都】中电10所面试指南.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/3.成都国企面试指南/【成都】中电10所面试指南.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企面试指南/3.成都国企面试指南/【成都】中电29所面试问题以及解析.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/3.成都国企面试指南/【成都】中电29所面试指南.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/about/我的星球/知识星球.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/about/我的星球/知识星球.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/chengdu-defence-soc-no1.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/3.chengdu-defence-soc-no1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/chengdu-defence-soc-no2.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/4.chengdu-defence-soc-no2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/chengdu-defence-soc-no3.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/5.chengdu-defence-soc-no3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/【中国石油】汇总成都中石油旗下央企.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/6.【中国石油】汇总成都中石油旗下央企.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/成都央企名录.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/1.成都央企名录.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/4.成都国企名录/成都国企名录.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/4.成都国企名录/1.成都国企名录.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企知识/1.央国企知识简介/央国企知识简介.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企知识/2.央国企知识/different-of-soc.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/1.央国企知识/different-of-soc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/工业互联网技术栈/4.JVM/Java Class文件构成.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/工业互联网技术栈/4.JVM/1.Java Class文件构成.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +56,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/leiqinghua/my/blogs/HxSay.github.io/source/images",
+    "last_opened_file_path": "/Users/leiqinghua/my/blogs/HxSay.github.io/source/_posts/央国企名录/3.成都央企名录",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.editor",
     "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external"
@@ -60,18 +64,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录" />
       <recent name="$PROJECT_DIR$/source/images" />
       <recent name="$PROJECT_DIR$/themes/vexo/source/css/images" />
       <recent name="$PROJECT_DIR$/source/_posts/央国企知识/央国企知识简介" />
       <recent name="$PROJECT_DIR$/source/_posts/央国企名录/央国企名录简介" />
-      <recent name="$PROJECT_DIR$/source/_posts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/source/_posts/央国企面试指南/4.成都国企面试指南" />
-      <recent name="$PROJECT_DIR$/source/images" />
       <recent name="$PROJECT_DIR$/themes/vexo/source/css/images" />
-      <recent name="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企" />
-      <recent name="$PROJECT_DIR$/source/images/米国" />
+      <recent name="$PROJECT_DIR$/themes/vexo/source/css/_partial" />
+      <recent name="$PROJECT_DIR$/source/images" />
+      <recent name="$PROJECT_DIR$/source/_posts/央国企名录" />
+      <recent name="$PROJECT_DIR$/source/_posts/央国企面试指南/4.成都国企面试指南" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -91,7 +95,8 @@
       <workItem from="1708693823322" duration="341000" />
       <workItem from="1708757757375" duration="2825000" />
       <workItem from="1708834089774" duration="4938000" />
-      <workItem from="1708902658236" duration="24760000" />
+      <workItem from="1708902658236" duration="24891000" />
+      <workItem from="1708993853236" duration="17772000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]新增二级目录文章测试">
       <created>1708315696708</created>

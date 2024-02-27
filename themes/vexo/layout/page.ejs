@@ -87,7 +87,10 @@
   <% } %>
   <!-- Catalog END -->
   <button class="global-show-button" style="position: fixed; bottom: 10px; right: 20px;  color: black; padding: 2px; border: none; border-radius: 2px; cursor: pointer;">沉浸模式</button>
-
+  <div class="leftbar-hidden-icon">
+    <div class=".set-leftbar-hidden"></div>
+    <img class="arrow-right" src="/css/images/circle_left.png" />
+  </div>
 </main>
 
 <script>
@@ -203,7 +206,19 @@
   var headerContainer = document.querySelector(".header-container")
   var articleBanner = document.querySelector("#article-banner")
   var postArticle = document.querySelector(".post-article");
-
+  var leftsiderbarIcon = document.querySelector(".arrow-right")
+  var isLeftsiderBarHidden = false;
+  leftsiderbarIcon.addEventListener('click', function(event) {
+    if(isLeftsiderBarHidden){
+      leftSliderBar.style.display = 'block';
+      postArticle.style.width = '60%';
+      isLeftsiderBarHidden = false;
+    }else{
+      leftSliderBar.style.display = 'none';
+      postArticle.style.width = '100%';
+      isLeftsiderBarHidden = true;
+    }
+  })
   globalScreenBtn.addEventListener('click', function(event) {
     if (isHidden) {
       // 如果元素已经隐藏，则显示它
