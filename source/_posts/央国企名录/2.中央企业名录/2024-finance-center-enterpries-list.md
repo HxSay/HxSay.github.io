@@ -1,5 +1,5 @@
 ---
-title: 2024年，中央金融企业名录和官网地址
+title: 2024年，中央金融企业名录&官网地址
 date: 2024-02-19 21:08:15
 categories: [chengdu-soc-guide]
 tags: [directory-of-soc]

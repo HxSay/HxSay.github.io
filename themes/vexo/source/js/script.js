@@ -6,7 +6,7 @@
   var about = document.getElementById('about-banner') || false
   var top = $('.scroll-top')
   var catalog = $('.catalog-container .toc-main')
-  var leftSidebar = document.getElementById('left-sidebar') || false
+  // var leftSidebar = document.getElementById('left-sidebar') || false
   var isOpen = false
 
   console.log("scripts run...")
@@ -122,10 +122,10 @@
     }
     if (scrollTop > 190) {
       catalog.addClass('fixed-toc')
-      leftSidebar.addClass('fixed-toc')
+      // leftSidebar.addClass('fixed-toc')
     } else {
       catalog.removeClass('fixed-toc')
-      leftSidebar.removeClass('fixed-toc')
+      // leftSidebar.removeClass('fixed-toc')
     }
   })
 })(jQuery)

@@ -2,28 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]添加一些文章，和一些修改">
-      <change afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/2.【成都央企】按区域划分.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/7.【中国石化】汇总成都中石化旗下央企.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-1550-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-2198-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-296-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/sdasdimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/No-1516-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/No-2175-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/No-2327-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/No-2514-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/No-2586-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/No-2658-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/img-1v1tw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/img-mnms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/img-mssc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/img-zdhk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/img-zszl.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/about/我的星球/知识星球.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/about/我的星球/知识星球.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/chengdu-defence-soc-no1.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/3.chengdu-defence-soc-no1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/chengdu-defence-soc-no2.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/4.chengdu-defence-soc-no2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/chengdu-defence-soc-no3.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/5.chengdu-defence-soc-no3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/【中国石油】汇总成都中石油旗下央企.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/6.【中国石油】汇总成都中石油旗下央企.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/成都央企名录.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/1.成都央企名录.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/4.成都国企名录/成都国企名录.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/4.成都国企名录/1.成都国企名录.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企知识/1.央国企知识简介/央国企知识简介.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企知识/2.央国企知识/different-of-soc.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/1.央国企知识/different-of-soc.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/工业互联网技术栈/4.JVM/Java Class文件构成.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/工业互联网技术栈/4.JVM/1.Java Class文件构成.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/1.央国企名录简介/央国企名录简介.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/2.中央企业名录/2024-center-enterpries-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/2.中央企业名录/2024-center-enterpries-list.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/2.中央企业名录/2024-finance-center-enterpries-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/2.中央企业名录/2024-finance-center-enterpries-list.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,18 +44,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/leiqinghua/my/blogs/HxSay.github.io/source/_posts/央国企名录/3.成都央企名录",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/leiqinghua/my/blogs/HxSay.github.io/source/_posts/央国企名录/3.成都央企名录&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录" />
@@ -71,9 +65,9 @@
       <recent name="$PROJECT_DIR$/source/_posts/央国企名录/央国企名录简介" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/images" />
       <recent name="$PROJECT_DIR$/themes/vexo/source/css/images" />
       <recent name="$PROJECT_DIR$/themes/vexo/source/css/_partial" />
-      <recent name="$PROJECT_DIR$/source/images" />
       <recent name="$PROJECT_DIR$/source/_posts/央国企名录" />
       <recent name="$PROJECT_DIR$/source/_posts/央国企面试指南/4.成都国企面试指南" />
     </key>
@@ -96,7 +90,8 @@
       <workItem from="1708757757375" duration="2825000" />
       <workItem from="1708834089774" duration="4938000" />
       <workItem from="1708902658236" duration="24891000" />
-      <workItem from="1708993853236" duration="17772000" />
+      <workItem from="1708993853236" duration="17829000" />
+      <workItem from="1709080582363" duration="12112000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]新增二级目录文章测试">
       <created>1708315696708</created>
