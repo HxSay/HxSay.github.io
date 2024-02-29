@@ -2,22 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]添加一些文章，和一些修改">
-      <change afterPath="$PROJECT_DIR$/source/images/No-1516-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-2175-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-2327-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-2514-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-2586-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-2658-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img-1v1tw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img-mnms.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img-mssc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img-zdhk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img-zszl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/No-1008-JVM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/No-1297-JVM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/No-131-JVM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/No-3479-JVM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/No-779-JVM.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/about/我的星球/知识星球.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/about/我的星球/知识星球.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/1.央国企名录简介/央国企名录简介.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/2.中央企业名录/2024-center-enterpries-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/2.中央企业名录/2024-center-enterpries-list.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/2.中央企业名录/2024-finance-center-enterpries-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/2.中央企业名录/2024-finance-center-enterpries-list.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/工业互联网技术栈/4.JVM/1.Java Class文件构成.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/工业互联网技术栈/4.JVM/1.Java Class文件构成.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/工业互联网技术栈/4.JVM/3.CPU的多级缓存架构、CPU缓存一致性.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/工业互联网技术栈/4.JVM/3.CPU缓存一致性.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/images/No-11447-JVM (24).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/No-11447-JVM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/images/No-16405-JVM (25).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/No-16405-JVM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/images/No-17035-JVM (26).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/No-17035-JVM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/images/No-7970-JVM (22).png" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/No-7970-JVM.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +87,8 @@
       <workItem from="1708834089774" duration="4938000" />
       <workItem from="1708902658236" duration="24891000" />
       <workItem from="1708993853236" duration="17829000" />
-      <workItem from="1709080582363" duration="12112000" />
+      <workItem from="1709080582363" duration="12249000" />
+      <workItem from="1709166538750" duration="1366000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]新增二级目录文章测试">
       <created>1708315696708</created>
