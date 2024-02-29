@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]新增技术文章">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/about/关于我/在5A级景区写代码是一种什么样的体验II？.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/about/关于我/5.在5A级景区写代码是一种什么样的体验II？.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/about/关于我/在5A级景区写代码是一种什么样的体验I？.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/about/关于我/4.在5A级景区写代码是一种什么样的体验I？.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/about/关于我/央企员工2024年的碎碎念.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/about/关于我/2.央企员工2024年的碎碎念.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/about/关于我/我从互联网客户端到央企后台这一年.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/about/关于我/3.我从互联网客户端到央企后台这一年.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/about/关于我/终于【浣熊say-央国企面试指南】网页版上线了！.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/about/关于我/1.终于【浣熊say-央国企面试指南】网页版上线了！.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/【电力】成都6家电力相关央企.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/8.【国家电网】成都6家电力相关央企.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企面试指南/3.成都国企面试指南/【成都】四川勘察公路设计院面试指南.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/3.成都国企面试指南/【成都】四川勘察公路设计院面试指南.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +77,7 @@
       <workItem from="1708902658236" duration="24891000" />
       <workItem from="1708993853236" duration="17829000" />
       <workItem from="1709080582363" duration="12249000" />
-      <workItem from="1709166538750" duration="4837000" />
+      <workItem from="1709166538750" duration="5378000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]新增二级目录文章测试">
       <created>1708315696708</created>
@@ -324,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709168023517</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="[feat]新增技术文章">
+      <created>1709175130898</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1709175130898</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
