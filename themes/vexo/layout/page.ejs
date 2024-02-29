@@ -1,15 +1,15 @@
 <div id="article-banner">
   <h2><%- page.title %></h2>
-  <div style="display: flex; flex-direction: row; align-items: center;justify-content: center; margin-top: 20px;">
-    <p class="post-date" style="color: white;margin-right: 20px;"><%- "时间：" + date(page.date, "YYYY-MM-DD") %></p>
-    <p class="post-date" style="color: white;margin-right: 20px;">作者：浣熊say</p>
+  <div style="display: flex; flex-direction: row; align-items: center;justify-content: center; margin-top: 20px;transform: translateY(-20px);transition: all 0.4s;transition-delay: 0.05s">
+    <p  style="color: white;margin-right: 20px;     "><%- "时间：" + date(page.date, "YYYY-MM-DD") %></p>
+    <p  style="color: white;margin-right: 20px;">作者：浣熊say</p>
     <%if(page.content && page.content.length!==0){ %>
-      <p class="post-date" style="color: white;margin-right: 20px;">
+      <p  style="color: white;margin-right: 20px;">
         <%- "字数："+ parseInt(page.content.length/2) +" 字" %>
       </p>
     <% }%>
     <%if(page.content && page.content.length!==0){ %>
-      <p class="post-date" style="color: white;margin-right: 20px;">
+      <p  style="color: white;margin-right: 20px;">
         <%- "阅读时间："+parseInt(page.content.length /500) +" 分钟" %>
       </p>
     <% }%>

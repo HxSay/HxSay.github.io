@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]新增技术文章">
-      <change afterPath="$PROJECT_DIR$/source/_posts/about/随笔/todolist.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/txdl_img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/txdl_img_2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/2.中央企业名录/2024-center-enterpries-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/2.中央企业名录/2024-center-enterpries-list.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/2.中央企业名录/2024-finance-center-enterpries-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/2.中央企业名录/2024-finance-center-enterpries-list.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/1.成都央企名录.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/1.成都央企名录.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +77,7 @@
       <workItem from="1708902658236" duration="24891000" />
       <workItem from="1708993853236" duration="17829000" />
       <workItem from="1709080582363" duration="12249000" />
-      <workItem from="1709166538750" duration="11004000" />
+      <workItem from="1709166538750" duration="11629000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]新增二级目录文章测试">
       <created>1708315696708</created>
@@ -330,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709175130898</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="[feat]新增技术文章">
+      <created>1709188836246</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1709188836246</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
