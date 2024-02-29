@@ -25,6 +25,8 @@
    <%- partial('_partial/leftsidebar', { site: site, path: page.path });%>
   <!-- Article START -->
   <article class="post-article">
+    <%- partial('_partial/card', { theme: theme});%>
+
     <section class="markdown-content" style="min-width: 50vw;"><%- page.content %></section>
     <!-- Tags START -->
     <% if (page.tags && page.tags.length) { %>

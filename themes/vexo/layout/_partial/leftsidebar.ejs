@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <div class="left-sidebar" id="left-sidebar">
-<aside class="left-sidebar-container">
+<div class="left-sidebar-container">
     <%
     var pathSplits = path.split('/').filter(function(item) {
         return item.trim() !== '';
@@ -69,7 +69,7 @@
     <%}%>
 
 
-</aside>
+</div>
 
 
 </div>
@@ -157,6 +157,12 @@
         padding-left: 1em;
         padding-top: 2em;
         padding-right: 1em;
+    }
+
+    .left-sidebar .top-pad{
+        position: fixed;
+        top: 90px;
+        display: block;
     }
 
     .ls-tag-list {
