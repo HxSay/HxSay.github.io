@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]新增技术文章">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/Java面试指南/7.Redis常见面试题详解/1.Redis常见面试题详解(I).md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Java面试指南/7.Redis常见面试题详解/1.Redis常见面试题详解(I).md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,7 @@
       <workItem from="1708993853236" duration="17829000" />
       <workItem from="1709080582363" duration="12249000" />
       <workItem from="1709166538750" duration="20306000" />
-      <workItem from="1709253008589" duration="16635000" />
+      <workItem from="1709253008589" duration="20173000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]新增二级目录文章测试">
       <created>1708315696708</created>
