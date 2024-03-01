@@ -2,28 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]新增技术文章">
-      <change afterPath="$PROJECT_DIR$/source/_posts/Java面试指南/1.简介/简介.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/Java面试指南/7.Redis常见面试题详解/1.Redis常见面试题详解(I).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/2.成都军工央企名录.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/4.中国石油面试指南/1.中石油2016年真题&amp;解析.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/Aspose.Words.b6ae3fe0-8f49-40e5-9631-076e0e889e79.001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/Aspose.Words.b6ae3fe0-8f49-40e5-9631-076e0e889e79.002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/Aspose.Words.b6ae3fe0-8f49-40e5-9631-076e0e889e79.003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/Aspose.Words.b6ae3fe0-8f49-40e5-9631-076e0e889e79.004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/Aspose.Words.b6ae3fe0-8f49-40e5-9631-076e0e889e79.005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/zsy2016img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/pdf/zsy-2016.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/4.中国石油面试指南/1.中石油面经汇总.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/9.【通用能力测试】资料/1.判断推理+150题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/9.【通用能力测试】资料/2.常识判断+150题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/9.【通用能力测试】资料/3.数量关系+150题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/9.【通用能力测试】资料/4.言语理解与表达+150题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/9.【通用能力测试】资料/5.资料分析+150题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/pdf/《通用能力》判断推理+150道.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/pdf/《通用能力》常识判断+150题.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/pdf/《通用能力》数量关系+150题.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/pdf/《通用能力》言语理解与表达+150题.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/pdf/《通用能力》资料分析+150题.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/1.成都央企名录.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/1.成都央企名录.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/2.【成都央企】按区域划分.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/工业互联网技术栈/1.简介/工业互联网技术栈简介.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/工业互联网技术栈/4.JVM/1.Java Class文件构成.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Java面试指南/4.JVM/1.Java Class文件构成.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/工业互联网技术栈/4.JVM/2.CPU的多级缓存架构.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Java面试指南/4.JVM/2.CPU的多级缓存架构.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/工业互联网技术栈/4.JVM/3.CPU缓存一致性.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Java面试指南/4.JVM/3.CPU缓存一致性.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/工业互联网技术栈/4.JVM/4.Java方法区详解-运行时内存营地.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Java面试指南/4.JVM/4.Java方法区详解-运行时内存营地.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企面试指南/4.中国石油面试指南/1.中石油2016年真题&amp;解析.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/4.中国石油面试指南/2.中石油2016年真题&amp;解析.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/leiqinghua/my/blogs/HxSay.github.io/source/_posts/央国企面试指南/4.中国石油面试指南",
+    "last_opened_file_path": "/Users/leiqinghua/my/blogs/HxSay.github.io/source/_posts/央国企面试指南/9.【通用能力测试】资料",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.editor",
     "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external"
@@ -64,18 +55,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/_posts/央国企面试指南/9.【通用能力测试】资料" />
+      <recent name="$PROJECT_DIR$/source/_posts/央国企面试指南/4.中国石油面试指南/通用能力相关资料" />
       <recent name="$PROJECT_DIR$/source/_posts/央国企面试指南/4.中国石油面试指南" />
+      <recent name="$PROJECT_DIR$/themes/vexo/layout/_partial/search" />
       <recent name="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录" />
-      <recent name="$PROJECT_DIR$/source/images" />
-      <recent name="$PROJECT_DIR$/themes/vexo/source/css/images" />
-      <recent name="$PROJECT_DIR$/source/_posts/央国企知识/央国企知识简介" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/source/pdf" />
-      <recent name="$PROJECT_DIR$/source/images" />
-      <recent name="$PROJECT_DIR$/source/_posts/央国企面试指南/4.中国石油面试指南/pdf" />
+      <recent name="$PROJECT_DIR$/source/_posts/央国企面试指南/20.【通用能力测试】资料" />
       <recent name="$PROJECT_DIR$/source/_posts/央国企面试指南/4.中国石油面试指南" />
-      <recent name="$PROJECT_DIR$/source/pdf/中国石油" />
+      <recent name="$PROJECT_DIR$/source/pdf" />
+      <recent name="$PROJECT_DIR$/themes/vexo/layout/_partial" />
+      <recent name="$PROJECT_DIR$/source/images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -99,7 +90,7 @@
       <workItem from="1708993853236" duration="17829000" />
       <workItem from="1709080582363" duration="12249000" />
       <workItem from="1709166538750" duration="20306000" />
-      <workItem from="1709253008589" duration="11072000" />
+      <workItem from="1709253008589" duration="14947000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]新增二级目录文章测试">
       <created>1708315696708</created>
