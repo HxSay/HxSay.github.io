@@ -214,7 +214,6 @@
 
 <script>
   var isHidden = false;
-  var leftSliderBarContainer = document.querySelector('.left-sidebar-container');
   var leftSliderBar = document.querySelector('.left-sidebar');
   var globalScreenBtn = document.querySelector('.global-show-button');
   var catalog = document.querySelector('.catalog-container');
@@ -225,7 +224,7 @@
   var isLeftsiderBarHidden = false;
   leftsiderbarIcon.addEventListener('click', function(event) {
     if(isLeftsiderBarHidden){
-      leftSliderBarContainer.style.display = 'block';
+      leftSliderBar.style.display = 'block';
       postArticle.style.width = '60%';
       isLeftsiderBarHidden = false;
       leftsiderbarIcon.style.transform = 'rotate(270deg)';
@@ -233,7 +232,7 @@
         leftSliderBar.style.paddingLeft = '8em';
       }
     }else{ //侧边栏收起
-      leftSliderBarContainer.style.display = 'none';
+      leftSliderBar.style.display = 'none';
       postArticle.style.width = '90%';
       leftsiderbarIcon.style.transform = 'rotate(90deg)';
       isLeftsiderBarHidden = true;
@@ -245,19 +244,21 @@
   globalScreenBtn.addEventListener('click', function(event) {
     if (isHidden) {
       // 如果元素已经隐藏，则显示它
-      leftSliderBarContainer.style.display = 'block';
+      leftSliderBar.style.display = 'block';
       catalog.style.display = 'block'
       headerContainer.style.display = 'block'
       articleBanner.style.display = 'block'
       postArticle.style.width = '60%';
+      postArticle.style.marginLeft='300px';
       isHidden = false;
     } else {
       // 如果元素未隐藏，则隐藏它
-      leftSliderBarContainer.style.display = 'none';
+      leftSliderBar.style.display = 'none';
       catalog.style.display = 'none'
       headerContainer.style.display = 'none'
       articleBanner.style.display = 'none'
       postArticle.style.width = '100%';
+      postArticle.style.marginLeft='0';
       isHidden = true;
     }
   });

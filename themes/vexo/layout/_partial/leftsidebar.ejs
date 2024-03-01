@@ -1,6 +1,5 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <div class="left-sidebar" id="left-sidebar">
-<div class="left-sidebar-container">
     <%
     var pathSplits = path.split('/').filter(function(item) {
         return item.trim() !== '';
@@ -67,9 +66,6 @@
             <%}%>
         <% } %>
     <%}%>
-
-
-</div>
 
 
 </div>
@@ -151,18 +147,20 @@
 <style>
 
     .left-sidebar{
-        left: 0;
+        position: fixed;
+        /*left: 0;*/
         /*border-right : 1px solid #ccc;*/
-        height: 1000vh;
+        height: 100%;
         padding-left: 1em;
         padding-top: 2em;
         padding-right: 1em;
     }
 
-    .left-sidebar .top-pad{
+    .top-pad{
         position: fixed;
-        top: 90px;
+        top: 58px;
         display: block;
+        /*border-right : 1px solid #ccc;*/
     }
 
     .ls-tag-list {
@@ -254,10 +252,6 @@
 
     .ls-title.disabled {
         filter: grayscale(1); /* 灰显 */
-    }
-
-    .left-sidebar-container {
-        align-items: center;
     }
 
     #arrow-icon {
