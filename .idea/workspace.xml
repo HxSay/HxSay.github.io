@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]新增技术文章">
-      <change afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/4.中国石油面试指南/1.中石油面经汇总.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/9.【通用能力测试】资料/1.判断推理+150题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/9.【通用能力测试】资料/2.常识判断+150题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/9.【通用能力测试】资料/3.数量关系+150题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/9.【通用能力测试】资料/4.言语理解与表达+150题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/9.【通用能力测试】资料/5.资料分析+150题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/pdf/《通用能力》判断推理+150道.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/pdf/《通用能力》常识判断+150题.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/pdf/《通用能力》数量关系+150题.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/pdf/《通用能力》言语理解与表达+150题.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/pdf/《通用能力》资料分析+150题.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企面试指南/4.中国石油面试指南/1.中石油2016年真题&amp;解析.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/4.中国石油面试指南/2.中石油2016年真题&amp;解析.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/1.成都央企名录.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/1.成都央企名录.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +79,7 @@
       <workItem from="1708993853236" duration="17829000" />
       <workItem from="1709080582363" duration="12249000" />
       <workItem from="1709166538750" duration="20306000" />
-      <workItem from="1709253008589" duration="14947000" />
+      <workItem from="1709253008589" duration="16101000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]新增二级目录文章测试">
       <created>1708315696708</created>
@@ -344,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709188836246</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="[feat]新增技术文章">
+      <created>1709276924430</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1709276924430</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

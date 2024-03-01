@@ -1,3 +1,4 @@
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <div id="article-banner">
   <h2><%- page.title %></h2>
   <div style="display: flex; flex-direction: row; align-items: center;justify-content: center; margin-top: 20px;transform: translateY(-20px);transition: all 0.4s;transition-delay: 0.05s">
@@ -14,6 +15,11 @@
       </p>
     <% }%>
 
+    <p  style="color: white;margin-right: 20px;">
+      <span id="busuanzi_container_site_uv">
+        本站访客数：<span id="busuanzi_value_site_uv"></span>人次
+      </span>
+    </p>
   </div>
 
   <div class="arrow-down">
@@ -35,6 +41,9 @@
         <%- partial('_partial/tag', { tags: page.tags }) %>
       </div>
     <% } %>
+
+    <%- partial('_partial/card-end', { theme: theme});%>
+
     <!-- Tags END -->
     <!-- NAV START -->
     <%- partial('_partial/nav') %>
@@ -67,6 +76,10 @@
         <p class="notice">更多央国企信息、面试辅导、简历修改等，请关注知识星球：[成都央国企指南]</p>
       </div>
     <% } %>
+    <span id="busuanzi_container_site_pv">
+      本站总访问量<span id="busuanzi_value_site_pv"></span>次
+    </span>
+
     <!-- 二维码 END -->
     <% if (theme.comment === 'utterances') { %>
       <!-- Utterances START -->
@@ -106,7 +119,6 @@
     <span class="arrow-right"></span>
   </div>
 </main>
-
 <script>
   (function () {
     var url = '<%= config.url %>/<%= page.path %>';
