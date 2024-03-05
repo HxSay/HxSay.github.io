@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]新增技术文章">
+      <change afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/中国人民解放军第5701工厂.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/1.央国企面试指南简介/2024年就业形势分析：就业难是你的问题吗？.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/img_1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/img_xxx.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Java面试指南/7.Redis常见面试题详解/1.Redis常见面试题详解(I).md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Java面试指南/7.Redis常见面试题详解/1.Redis常见面试题详解(I).md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/about/我的星球/知识星球.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/about/我的星球/知识星球.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/about/随笔/todolist.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/about/随笔/todolist.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/1.成都央企名录.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/1.成都央企名录.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/2.成都军工央企名录.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/2.成都军工央企名录.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/5.chengdu-defence-soc-no3.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/5.chengdu-defence-soc-no3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企面试指南/3.成都国企面试指南/【成都】中电30所面试指南.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/3.成都国企面试指南/【成都】中电30所面试指南.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,18 +39,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/leiqinghua/my/blogs/HxSay.github.io/source/_posts/央国企面试指南/9.【通用能力测试】资料",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/leiqinghua/my/blogs/HxSay.github.io/source/_posts/央国企面试指南/9.【通用能力测试】资料&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/source/_posts/央国企面试指南/9.【通用能力测试】资料" />
@@ -51,11 +60,11 @@
       <recent name="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/images" />
       <recent name="$PROJECT_DIR$/source/_posts/央国企面试指南/20.【通用能力测试】资料" />
       <recent name="$PROJECT_DIR$/source/_posts/央国企面试指南/4.中国石油面试指南" />
       <recent name="$PROJECT_DIR$/source/pdf" />
       <recent name="$PROJECT_DIR$/themes/vexo/layout/_partial" />
-      <recent name="$PROJECT_DIR$/source/images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -79,7 +88,8 @@
       <workItem from="1708993853236" duration="17829000" />
       <workItem from="1709080582363" duration="12249000" />
       <workItem from="1709166538750" duration="20306000" />
-      <workItem from="1709253008589" duration="20173000" />
+      <workItem from="1709253008589" duration="20294000" />
+      <workItem from="1709537386184" duration="13545000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]新增二级目录文章测试">
       <created>1708315696708</created>
