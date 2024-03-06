@@ -109,12 +109,22 @@ deploy:
   type: git
 #  repo: https://github.com/HxSay/HxSay.github.io
   repo: git@42.193.22.180:/home/git/hexo.git
-  # example, https://github.com/hexojs/hexojs.github.io
+# example, https://github.com/hexojs/hexojs.github.io
 #  branch: gh-pages
   branch: master
+# 百度主动推送
+type: baidu_url_submitter
 
 # 自动生成sitemap
 sitemap:
   path: sitemap.xml
 baidusitemap:
   path: baidusitemap.xml
+
+
+# 百度主动推送
+baidu_url_submit:
+  count: 200 # 提交最新的五个链接
+  host: https://hxsay.com # 在百度站长平台中注册的域名
+  token: 9OTI0UeDylu4RYbd  # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+  path: baidu_urls.txt  # 文本文档的地址， 新链接会保存在此文本文档里
