@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]新增技术文章">
-      <change afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/中国化学西南工程科技有限公司.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/1.央国企面试指南简介/央国企求职“性价比分析”：为什么这几年央国企火了？.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img-zghx.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Java面试指南/7.Redis常见面试题详解/1.Redis常见面试题详解(I).md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Java面试指南/7.Redis常见面试题详解/1.Redis常见面试题详解(I).md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/about/随笔/todolist.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/about/随笔/todolist.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/1.成都央企名录.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/1.成都央企名录.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/2.成都军工央企名录.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/2.成都军工央企名录.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/中国人民解放军第5701工厂.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/中国人民解放军第5701工厂.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企面试指南/1.央国企面试指南简介/央国企求职“性价比分析”：为什么这几年央国企火了？.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/1.央国企面试指南简介/央国企求职“性价比分析”：为什么这几年央国企火了？.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +81,7 @@
       <workItem from="1709166538750" duration="20306000" />
       <workItem from="1709253008589" duration="20294000" />
       <workItem from="1709537386184" duration="21710000" />
-      <workItem from="1709684738910" duration="6824000" />
+      <workItem from="1709684738910" duration="9102000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]新增二级目录文章测试">
       <created>1708315696708</created>
@@ -357,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709611031591</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="[feat]新增技术文章">
+      <created>1709714564682</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1709714564682</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
