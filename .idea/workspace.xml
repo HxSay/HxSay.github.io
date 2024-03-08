@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]新增技术文章">
+      <change afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/8.国家电网旗下.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企面试指南/1.央国企面试指南简介/央国企求职“性价比分析”：为什么这几年央国企火了？.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企面试指南/1.央国企面试指南简介/央国企求职“性价比分析”：为什么这几年央国企火了？.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/about/随笔/todolist.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/about/随笔/todolist.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/1.成都央企名录.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/1.成都央企名录.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/3.chengdu-defence-soc-no1.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/3.chengdu-defence-soc-no1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/4.chengdu-defence-soc-no2.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/4.chengdu-defence-soc-no2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/5.chengdu-defence-soc-no3.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/5.chengdu-defence-soc-no3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/6.【中国石油】汇总成都中石油旗下央企.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/6.中国石油旗下.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/7.【中国石化】汇总成都中石化旗下央企.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/7.中国石化旗下.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/8.【国家电网】成都6家电力相关央企.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/9.中国五矿旗下.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/leiqinghua/my/blogs/HxSay.github.io/source/_posts/央国企面试指南/1.央国企面试指南简介",
+    "last_opened_file_path": "/Users/leiqinghua/my/blogs/HxSay.github.io/source/_posts/央国企名录/3.成都央企名录",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.editor",
     "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external"
@@ -44,8 +52,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/source/_posts/央国企面试指南/1.央国企面试指南简介" />
       <recent name="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录" />
+      <recent name="$PROJECT_DIR$/source/_posts/央国企面试指南/1.央国企面试指南简介" />
       <recent name="$PROJECT_DIR$/source/_posts/央国企面试指南/9.【通用能力测试】资料" />
       <recent name="$PROJECT_DIR$/source/_posts/央国企面试指南/4.中国石油面试指南/通用能力相关资料" />
       <recent name="$PROJECT_DIR$/source/_posts/央国企面试指南/4.中国石油面试指南" />
@@ -81,7 +89,11 @@
       <workItem from="1709166538750" duration="20306000" />
       <workItem from="1709253008589" duration="20294000" />
       <workItem from="1709537386184" duration="21710000" />
-      <workItem from="1709684738910" duration="9102000" />
+      <workItem from="1709684738910" duration="9713000" />
+      <workItem from="1709771375601" duration="3073000" />
+      <workItem from="1709780002838" duration="6253000" />
+      <workItem from="1709819315968" duration="338000" />
+      <workItem from="1709858256276" duration="1577000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]新增二级目录文章测试">
       <created>1708315696708</created>
@@ -356,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709714564682</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="[feat]新增技术文章">
+      <created>1709716859496</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1709716859496</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
