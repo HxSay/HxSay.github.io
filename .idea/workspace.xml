@@ -2,44 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]新增一些文章">
-      <change afterPath="$PROJECT_DIR$/source/_posts/Java面试指南/5.消息队列相关/消息队列面试题详解(I).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/Java面试指南/6.MySQL常见面试题详解/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/Java面试指南/7.Redis常见面试题详解/2.Redis常见面试题详解(II).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/Java面试指南/7.Redis常见面试题详解/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/Java面试指南/7.Redis常见面试题详解/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/Java面试指南/7.Redis常见面试题详解/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/Java面试指南/9.大厂面经/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/Java面试指南/9.案例&amp;场景题/Java后台场景题详解.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/央国企名录/1.央国企知识/央国企单位行政级别划分.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/90.中国电建旗下.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/91.中国建筑旗下.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-2371-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-272-WechatIMG773.jpg_00.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-2983-Kafka 2 (5).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-4055-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-430-Kafka 2 (3).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-4527-Kafka 2 (6).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-4846-Kafka 2 (7).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-5120-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-5936-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/No-6333-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img1111232.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img_123123.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img_134354.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img_1sdasdvvfdds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img_2123456.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img_61223.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/imgdzsjjg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/imgncttcl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/imgsdsadxd.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/Java面试指南/7.Redis常见面试题详解/1.Redis常见面试题详解(I).md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Java面试指南/7.Redis常见面试题详解/1.Redis常见面试题详解(I).md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/about/随笔/todolist.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/about/随笔/todolist.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/1.成都央企名录.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录/1.成都央企名录.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/Java面试指南/7.Redis常见面试题详解/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/imgssss.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/Java面试指南/7.Redis常见面试题详解/img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/asdsadasvv.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/Java面试指南/7.Redis常见面试题详解/img_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/img_2xxxx.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +96,8 @@
       <workItem from="1710462497009" duration="12231000" />
       <workItem from="1710488143586" duration="2344000" />
       <workItem from="1710721014359" duration="1797000" />
-      <workItem from="1710808398396" duration="13084000" />
+      <workItem from="1710808398396" duration="13626000" />
+      <workItem from="1710895028590" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]新增二级目录文章测试">
       <created>1708315696708</created>
@@ -432,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710208332792</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="[feat]新增一些文章">
+      <created>1710836947143</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1710836947143</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
