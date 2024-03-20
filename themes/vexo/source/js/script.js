@@ -6,8 +6,10 @@
   var about = document.getElementById('about-banner') || false
   var top = $('.scroll-top')
   var catalog = $('.catalog-container .toc-main')
-  var leftSidebar = $('.left-sidebar')
+  var leftSidebar = $('.left-sidebar .top-pad')
   var isOpen = false
+  header.addClass('fixed-header')
+  catalog.addClass('fixed-toc')
 
   console.log("scripts run...")
 
@@ -112,7 +114,7 @@
       if (scrollTop > headerH) {
         header.addClass('fixed-header')
       } else if (scrollTop === 0) {
-        header.removeClass('fixed-header')
+        // header.removeClass('fixed-header')
       }
     }
     if (scrollTop > 100) {
@@ -122,10 +124,8 @@
     }
     if (scrollTop > 190) {
       catalog.addClass('fixed-toc')
-      leftSidebar.addClass('top-pad')
     } else {
-      catalog.removeClass('fixed-toc')
-      leftSidebar.removeClass('top-pad')
+      // catalog.removeClass('fixed-toc')
     }
   })
 })(jQuery)
