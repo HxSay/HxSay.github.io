@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]新增一些文章">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cf757583c921e3bbd0f18939b489c41e1d78bc2a33652d81d067d2ccee26202a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/d6c252fb676255622fd6102ba7649b6f9948263ee43e034334e04bb4c32be16d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/Java面试指南/6.MySQL常见面试题详解/1.Mysql常见面试题详解I.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Java面试指南/6.数据库相关/1.Mysql常见面试题详解I.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/Java面试指南/8.Spring系列常见面试题/1.Spring常见面试题详解I.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Java面试指南/8.Spring系列/1.Spring常见面试题详解I.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,18 +33,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/leiqinghua/my/blogs/HxSay.github.io/themes/vexo/source/css/images",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/leiqinghua/my/blogs/HxSay.github.io/themes/vexo/source/css/images&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/themes/vexo/source/css/images" />
@@ -94,7 +98,8 @@
       <workItem from="1710721014359" duration="1797000" />
       <workItem from="1710808398396" duration="13626000" />
       <workItem from="1710895028590" duration="327000" />
-      <workItem from="1710914605999" duration="9462000" />
+      <workItem from="1710914605999" duration="9675000" />
+      <workItem from="1710981017708" duration="3233000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]新增二级目录文章测试">
       <created>1708315696708</created>
