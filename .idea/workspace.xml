@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]新增一些文章">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cf757583c921e3bbd0f18939b489c41e1d78bc2a33652d81d067d2ccee26202a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/d6c252fb676255622fd6102ba7649b6f9948263ee43e034334e04bb4c32be16d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Java面试指南/6.MySQL常见面试题详解/1.Mysql常见面试题详解I.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Java面试指南/6.数据库相关/1.Mysql常见面试题详解I.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Java面试指南/8.Spring系列常见面试题/1.Spring常见面试题详解I.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Java面试指南/8.Spring系列/1.Spring常见面试题详解I.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/Java面试指南/6.MySQL常见面试题详解/1.Mysql常见面试题详解I.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Java面试指南/6.MySQL常见面试题详解/1.Mysql常见面试题详解I.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/4.成都国企名录/1.成都国企名录.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/4.成都国企名录/1.成都国企名录.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +97,7 @@
       <workItem from="1710808398396" duration="13626000" />
       <workItem from="1710895028590" duration="327000" />
       <workItem from="1710914605999" duration="9675000" />
-      <workItem from="1710981017708" duration="3233000" />
+      <workItem from="1710981017708" duration="4622000" />
     </task>
     <task id="LOCAL-00001" summary="[feat]新增二级目录文章测试">
       <created>1708315696708</created>
@@ -416,7 +414,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710914617312</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="[feat]新增一些文章">
+      <created>1711004141091</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1711004141091</updated>
+    </task>
+    <task id="LOCAL-00047" summary="[feat]新增一些文章">
+      <created>1711004146228</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1711004146228</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
