@@ -1,80 +1,153 @@
-<div id="about-banner" style="background-image: url(<%- theme.about.banner %>)"></div>
-<div class="author">
-  <div class="head">
-    <img src="<%- theme.about.avatar %>" />
-  </div>
-  <h3><%- config.author %></h3>
-  <% if (typeof(theme.about.description) === 'object') { %>
-    <% for (var i in theme.about.description) { %>
-      <p class="description">
-        <%- theme.about.description[i] %>
-      </p>
-    <% } %>
-  <% } else { %>
-    <p class="description"><%- theme.about.description %></p>
-  <% } %>
-  <section class="share-icons">
-    <% if (theme.about.weibo_username) { %>
-      <a class="icon-weibo" href="http://weibo.com/<%- theme.about.weibo_username %>" target="_blank">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
-        </span>
-      </a>
-    <% } %>
-    <% if (theme.about.twitter_username) { %>
-      <a class="icon-twitter" href="https://twitter.com/<%- theme.about.twitter_username %>" target="_blank">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-        </span>
-      </a>
-    <% } %>
-    <% if (theme.about.github_username) { %>
-      <a class="icon-github" href="https://github.com/<%- theme.about.github_username %>" target="_blank">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-        </span>
-      </a>
-    <% } %>
-    <% if (theme.about.linkedin_username) { %>
-      <a class="icon-linkedin" href="https://www.linkedin.com/in/<%- theme.about.linkedin_username %>" target="_blank">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-        </span>
-      </a>
-    <% } %>
-    <% if (theme.about.zhihu_username) { %>
-      <a class="icon-zhihu" href="https://www.zhihu.com/people/<%- theme.about.zhihu_username %>" target="_blank">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-stack-1x fa-inverse">知</i>
-        </span>
-      </a>
-    <% } %>
-    <% if (theme.about.douban_username) { %>
-        <a class="icon-douban" href="https://www.douban.com/people/<%- theme.about.douban_username %>" target="_blank">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-stack-1x fa-inverse">豆</i>
-            </span>
-        </a>
-    <% } %>
-  </section>
-</div>
+<main class="app-body">
 
-<script>
-  (function () {
-    $('.header').removeClass('fixed-header')
-    var windowH = $(window).height();
-    var author = $('.author')
-    var bodyH = author.offset().top + author[0].offsetHeight + 71;
-    if (bodyH < windowH) {
-      author.css({
-        'margin-bottom': windowH - bodyH
-      })
+    <div class="top-content-wrapper">
+        <div class="sub-wraper">
+            <h1 class="top-title ">浣熊say & 央国企面试指南</h1>
+            <p class="top-desc">「央国企知识 + 校招/社招面试指南」帮助大家解决网上知识不系统，进入央国企准备没头绪的问题，助力每个人成功上岸央国企～</p>
+            <p class="top-btns">
+                <a href="<%- url_for(theme.menu.央国企面试指南.url) %>" class="btn-1">开始阅读</a>
+                <a href="<%- url_for(theme.menu.知识星球.url) %>" class="btn-2">知识星球</a>
+                <a href="<%- url_for(theme.menu.公众号.url) %>" class="btn-3">微信公众号</a>
+
+            </p>
+        </div>
+    </div>
+
+    <div class="about-me">
+
+    </div>
+</main>
+
+<style>
+
+    .top-content-wrapper{
+        display: flex;
+        flex-direction: row;
+        margin: 120px;
+        align-items: center;
     }
-  })();
-</script>
+
+    .sub-wraper{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+
+    .top-title{
+        display: block;
+        transition: transform 0.25s ease-in-out 0.04s, opacity 0.25s ;
+        transform: translateX(0px);
+        opacity: 1;
+        color: #42b983;
+        font-size: 3em;
+        align-self: center;
+    }
+
+    .top-desc{
+        display: block;
+        transition: transform 0.25s ease-in-out 0.04s, opacity 0.25s ;
+        transform: translateX(0px);
+        opacity: 1;
+        font-size: 1.5em;
+        align-self: center;
+    }
+
+    .top-btns{
+        display: flex;
+        gap: 50px; /* 设置按钮之间的间距 */
+        margin-right: 100px;
+        margin-top: 50px;
+        transition: transform 0.25s ease-in-out 0.04s, opacity 0.25s ;
+        transform: translateX(0px);
+        opacity: 1;
+        align-self: center;
+    }
+
+    .top-btns a {
+        display: inline-block;
+        padding: 10px 20px; /* 设置按钮的内边距 */
+        border-radius: 50px; /* 设置按钮为椭圆形 */
+        color: #fff; /* 设置按钮文本颜色 */
+        text-decoration: none; /* 去除按钮的下划线 */
+        transition: background-color 0.3s; /* 设置背景颜色变化的过渡效果 */
+    }
+
+    .top-btns .btn-1 {
+        background-color: #42b983; /* 设置第一个按钮的背景颜色 */
+        font-size: 1.2em;
+    }
+
+    .top-btns .btn-2 {
+        background-color: #007bff; /* 设置第二个按钮的背景颜色 */
+        font-size: 1.2em;
+    }
+
+    .top-btns .btn-3 {
+        background-color: #FFA500; /* 设置第二个按钮的背景颜色 */
+        font-size: 1.2em;
+    }
+
+    .top-btns a:hover {
+        filter: brightness(85%); /* 鼠标悬停时按钮变暗 */
+    }
+
+
+    /* 在手机平台上重置 margin 和 padding */
+    @media screen and (max-width: 768px) {
+        #top-content-img {
+            display: none;
+        }
+
+        .top-content-wrapper {
+            margin: 0;
+            padding: 0;
+            padding-top: 100px;
+            padding-left: 20px;
+            padding-right: 20px;
+            align-self: center;
+        }
+
+        .sub-wraper{
+            margin: 0;
+            padding: 0;
+            align-items: center;
+        }
+
+        .top-title{
+            margin: 0;
+            padding: 0;
+        }
+        .top-desc{
+            margin: 0;
+            margin-top: 50px;
+            padding: 0;
+        }
+
+        .top-btns{
+            display: flex;
+            gap: 25px; /* 设置按钮之间的间距 */
+            padding: 0;
+            margin-left: 0;
+            margin-top: 50px;
+            margin-bottom: 200px;
+            transition: transform 0.25s ease-in-out 0.04s, opacity 0.25s ;
+            transform: translateX(0px);
+            opacity: 1;
+        }
+
+        .top-btns a {
+            display: inline-block;
+            padding: 5px 5px; /* 设置按钮的内边距 */
+            border-radius: 20px; /* 设置按钮为椭圆形 */
+            color: #fff; /* 设置按钮文本颜色 */
+            text-decoration: none; /* 去除按钮的下划线 */
+            transition: background-color 0.3s; /* 设置背景颜色变化的过渡效果 */
+            font-size: 14px;
+        }
+
+        .app-body{
+            justify-content: center;
+            align-items: center;
+        }
+    }
+</style>

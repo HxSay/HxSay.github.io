@@ -28,6 +28,12 @@
 </div>
 
 <main class="app-body flex-box">
+  <div class="leftbar-hidden-icon">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </div>
+
    <%- partial('_partial/leftsidebar', { site: site, path: page.path });%>
   <!-- Article START -->
   <article class="post-article">
@@ -115,9 +121,7 @@
   <% } %>
   <!-- Catalog END -->
   <button class="global-show-button" style="position: fixed; bottom: 10px; right: 20px;  color: black; padding: 2px; border: none; border-radius: 2px; cursor: pointer;">沉浸模式</button>
-  <div class="leftbar-hidden-icon">
-    <span class="arrow-right"></span>
-  </div>
+
 </main>
 <script>
   (function () {
@@ -237,16 +241,15 @@
   leftsiderbarIcon.addEventListener('click', function(event) {
     if(isLeftsiderBarHidden){
       leftSliderBar.style.display = 'block';
-      postArticle.style.width = '60%';
+      postArticle.style.display = 'none';
+      postArticle.style.width = '0px';
       isLeftsiderBarHidden = false;
-      leftsiderbarIcon.style.transform = 'rotate(270deg)';
       if(screen.width <= 768){
-        leftSliderBar.style.paddingLeft = '8em';
       }
     }else{ //侧边栏收起
       leftSliderBar.style.display = 'none';
+      postArticle.style.display = 'block';
       postArticle.style.width = '90%';
-      leftsiderbarIcon.style.transform = 'rotate(90deg)';
       isLeftsiderBarHidden = true;
       if(screen.width <= 768) { //适配手机端
         leftSliderBar.style.paddingLeft = '1em';
@@ -256,7 +259,6 @@
   globalScreenBtn.addEventListener('click', function(event) {
     if (isHidden) {
       // 如果元素已经隐藏，则显示它
-      leftSliderBar.style.display = 'block';
       catalog.style.display = 'block'
       headerContainer.style.display = 'block'
       articleBanner.style.display = 'block'
@@ -265,7 +267,6 @@
       isHidden = false;
     } else {
       // 如果元素未隐藏，则隐藏它
-      leftSliderBar.style.display = 'none';
       catalog.style.display = 'none'
       headerContainer.style.display = 'none'
       articleBanner.style.display = 'none'
