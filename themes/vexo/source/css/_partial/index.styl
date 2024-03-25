@@ -1,0 +1,71 @@
+.top-content-wrapper{
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  align-items: center;
+}
+
+#top-content-img
+@media m-mobile
+  display: none;
+
+.sub-wraper{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.top-title{
+  display: block;
+  transition: transform 0.25s ease-in-out 0.04s, opacity 0.25s ;
+  transform: translateX(0px);
+  opacity: 1;
+  color: #42b983;
+  font-size: 3em;
+}
+.top-desc{
+  display: block;
+  transition: transform 0.25s ease-in-out 0.04s, opacity 0.25s ;
+  transform: translateX(0px);
+  opacity: 1;
+  font-size: 1.5em;
+}
+.top-btns{
+  display: flex;
+  gap: 50px; /* 设置按钮之间的间距 */
+  margin-left: 100px;
+  margin-top: 50px;
+  transition: transform 0.25s ease-in-out 0.04s, opacity 0.25s ;
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+.top-btns a {
+  display: inline-block;
+  padding: 10px 20px; /* 设置按钮的内边距 */
+  border-radius: 50px; /* 设置按钮为椭圆形 */
+  color: #fff; /* 设置按钮文本颜色 */
+  text-decoration: none; /* 去除按钮的下划线 */
+  transition: background-color 0.3s; /* 设置背景颜色变化的过渡效果 */
+}
+
+.top-btns .btn-1 {
+  background-color: #42b983; /* 设置第一个按钮的背景颜色 */
+  font-size: 1.2em;
+}
+
+.top-btns .btn-2 {
+  background-color: #007bff; /* 设置第二个按钮的背景颜色 */
+  font-size: 1.2em;
+}
+
+.top-btns .btn-3 {
+  background-color: #FFA500; /* 设置第二个按钮的背景颜色 */
+  font-size: 1.2em;
+}
+
+.top-btns a:hover {
+  filter: brightness(85%); /* 鼠标悬停时按钮变暗 */
+}
