@@ -82,9 +82,9 @@
         <p class="notice">更多央国企信息、面试辅导、简历修改等，请关注知识星球：[成都央国企指南]</p>
       </div>
     <% } %>
-    <span id="busuanzi_container_site_pv">
-      本站总访问量<span id="busuanzi_value_site_pv"></span>次
-    </span>
+<!--    <span id="busuanzi_container_site_pv">-->
+<!--      本站总访问量<span id="busuanzi_value_site_pv"></span>次-->
+<!--    </span>-->
 
     <!-- 二维码 END -->
     <% if (theme.comment === 'utterances') { %>
@@ -238,6 +238,7 @@
   var postArticle = document.querySelector(".post-article");
   var leftsiderbarIcon = document.querySelector(".leftbar-hidden-icon")
   var isLeftsiderBarHidden = false;
+  var rewardBtn = document.querySelector(".reward-btn")
   leftsiderbarIcon.addEventListener('click', function(event) {
     if(isLeftsiderBarHidden){
       leftSliderBar.style.display = 'block';
@@ -261,18 +262,21 @@
       // 如果元素已经隐藏，则显示它
       catalog.style.display = 'block'
       headerContainer.style.display = 'block'
-      articleBanner.style.display = 'block'
       postArticle.style.width = '60%';
       postArticle.style.marginLeft='300px';
+      leftSliderBar.style.display = 'block';
+      rewardBtn.style.display = 'block';
       isHidden = false;
     } else {
       // 如果元素未隐藏，则隐藏它
       catalog.style.display = 'none'
       headerContainer.style.display = 'none'
-      articleBanner.style.display = 'none'
       postArticle.style.width = '100%';
       postArticle.style.marginLeft='0';
       isHidden = true;
+      leftSliderBar.style.display = 'none';
+      rewardBtn.style.display = 'none';
+
     }
   });
 </script>
