@@ -1,77 +1,450 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff3da7d7-1e54-4601-9a2c-edb4a1ca7740" name="Changes" comment="[feat]fix bug 2">
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+    <list default="true" id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="[feat]新增一些文章">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/about/我的星球/知识星球.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/about/我的星球/知识星球.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央国企名录/1.成都央企名录.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央国企名录/1.成都央企名录.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央国企名录/3.成都国企名录.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央国企名录/3.成都国企名录.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2cZ1r8Kn3PknYlnlkOewHo4gipe" />
+  <component name="ProjectId" id="2cZOPL6aNlmwwMZLlCJdx1y4WAG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/leiqinghua/my/blogs/HxSay.github.io",
-    "nodejs_package_manager_path": "pnpm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/leiqinghua/my/blogs/HxSay.github.io/themes/vexo/layout&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/vexo/layout" />
+      <recent name="$PROJECT_DIR$/themes/vexo/source/css/images" />
+      <recent name="$PROJECT_DIR$/source/_posts/Java面试指南/7.Redis常见面试题详解" />
+      <recent name="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录" />
+      <recent name="$PROJECT_DIR$/source/_posts/央国企名录/1.央国企知识" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/_posts/央国企名录/3.成都央企名录" />
+      <recent name="$PROJECT_DIR$/source/images" />
+      <recent name="$PROJECT_DIR$/source/_posts/央国企名录/5.成都央企" />
+      <recent name="$PROJECT_DIR$/themes/vexo/source/css/images" />
+      <recent name="$PROJECT_DIR$/source/_posts/Java面试指南/10.案例" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ff3da7d7-1e54-4601-9a2c-edb4a1ca7740" name="Changes" comment="" />
-      <created>1708304482887</created>
+      <changelist id="cefe1357-9e7f-470d-968b-d99a2fa55a81" name="Changes" comment="" />
+      <created>1708315608614</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1708304482887</updated>
-      <workItem from="1708304484188" duration="5000" />
-      <workItem from="1708304493675" duration="1595000" />
-      <workItem from="1708306209866" duration="1403000" />
+      <updated>1708315608614</updated>
+      <workItem from="1708315610024" duration="29020000" />
+      <workItem from="1708389283756" duration="6744000" />
+      <workItem from="1708480590801" duration="1742000" />
+      <workItem from="1708532736156" duration="18095000" />
+      <workItem from="1708586874467" duration="6752000" />
+      <workItem from="1708647787350" duration="11062000" />
+      <workItem from="1708693823322" duration="341000" />
+      <workItem from="1708757757375" duration="2825000" />
+      <workItem from="1708834089774" duration="4938000" />
+      <workItem from="1708902658236" duration="24891000" />
+      <workItem from="1708993853236" duration="17829000" />
+      <workItem from="1709080582363" duration="12249000" />
+      <workItem from="1709166538750" duration="20306000" />
+      <workItem from="1709253008589" duration="20294000" />
+      <workItem from="1709537386184" duration="21710000" />
+      <workItem from="1709684738910" duration="9713000" />
+      <workItem from="1709771375601" duration="3073000" />
+      <workItem from="1709780002838" duration="6253000" />
+      <workItem from="1709819315968" duration="338000" />
+      <workItem from="1709858256276" duration="8169000" />
+      <workItem from="1710124372757" duration="4911000" />
+      <workItem from="1710203762683" duration="7874000" />
+      <workItem from="1710290179862" duration="8783000" />
+      <workItem from="1710375998038" duration="7887000" />
+      <workItem from="1710462497009" duration="12231000" />
+      <workItem from="1710488143586" duration="2344000" />
+      <workItem from="1710721014359" duration="1797000" />
+      <workItem from="1710808398396" duration="13626000" />
+      <workItem from="1710895028590" duration="327000" />
+      <workItem from="1710914605999" duration="9675000" />
+      <workItem from="1710981017708" duration="4622000" />
+      <workItem from="1711067251858" duration="8401000" />
+      <workItem from="1711098818199" duration="1083000" />
+      <workItem from="1711293451464" duration="2644000" />
+      <workItem from="1711358145755" duration="877000" />
+      <workItem from="1711673822445" duration="568000" />
+      <workItem from="1711850197555" duration="451000" />
+      <workItem from="1712019984473" duration="523000" />
+      <workItem from="1712066795568" duration="591000" />
     </task>
-    <task id="LOCAL-00001" summary="[feat]fix bug 2">
-      <created>1708306389185</created>
+    <task id="LOCAL-00001" summary="[feat]新增二级目录文章测试">
+      <created>1708315696708</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1708306389185</updated>
+      <updated>1708315696708</updated>
     </task>
-    <task id="LOCAL-00002" summary="[feat]fix bug 2">
-      <created>1708306961138</created>
+    <task id="LOCAL-00002" summary="[feat]新增二级目录文章测试">
+      <created>1708315937050</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1708306961138</updated>
+      <updated>1708315937050</updated>
     </task>
-    <task id="LOCAL-00003" summary="[feat]fix bug 2">
-      <created>1708307255884</created>
+    <task id="LOCAL-00003" summary="[feat]新增二级目录文章测试">
+      <created>1708316041886</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1708307255884</updated>
+      <updated>1708316041886</updated>
     </task>
-    <task id="LOCAL-00004" summary="[feat]fix bug 2">
-      <created>1708307596758</created>
+    <task id="LOCAL-00004" summary="[feat]新增二级目录文章测试">
+      <created>1708316224593</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1708307596758</updated>
+      <updated>1708316224593</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[feat]新增二级目录文章测试">
+      <created>1708316522921</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708316522921</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[feat]新增二级目录文章测试">
+      <created>1708316714060</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708316714060</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[feat]新增二级目录文章测试">
+      <created>1708317411325</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708317411325</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[feat]新增二级目录文章测试">
+      <created>1708317607033</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708317607033</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[feat]新增二级目录文章测试">
+      <created>1708319038966</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708319038966</updated>
+    </task>
+    <task id="LOCAL-00010" summary="[feat]新增二级目录文章测试">
+      <created>1708319233115</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708319233115</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[feat]新增二级目录文章测试,更改主题为bmw">
+      <created>1708319757841</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708319757841</updated>
+    </task>
+    <task id="LOCAL-00012" summary="[feat]新增浏览页面的侧边栏，后续继续优化">
+      <created>1708349279057</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1708349279057</updated>
+    </task>
+    <task id="LOCAL-00013" summary="[feat]新增浏览页面的侧边栏，后续继续优化">
+      <created>1708349692341</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1708349692341</updated>
+    </task>
+    <task id="LOCAL-00014" summary="[feat]删除不需要的主题">
+      <created>1708349853341</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1708349853341</updated>
+    </task>
+    <task id="LOCAL-00015" summary="[feat]删除不需要的主题">
+      <created>1708350124042</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1708350124042</updated>
+    </task>
+    <task id="LOCAL-00016" summary="[feat]删除不需要的主题">
+      <created>1708350261009</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1708350261009</updated>
+    </task>
+    <task id="LOCAL-00017" summary="[feat]删除不需要的主题">
+      <created>1708350367733</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1708350367733</updated>
+    </task>
+    <task id="LOCAL-00018" summary="[feat]删除不需要的主题">
+      <created>1708350442722</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1708350442722</updated>
+    </task>
+    <task id="LOCAL-00019" summary="[feat]删除不需要的主题">
+      <created>1708350489897</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1708350489897</updated>
+    </task>
+    <task id="LOCAL-00020" summary="[feat]删除不需要的主题">
+      <created>1708350508108</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1708350508108</updated>
+    </task>
+    <task id="LOCAL-00021" summary="[feat]删除不需要的主题">
+      <created>1708350510362</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1708350510362</updated>
+    </task>
+    <task id="LOCAL-00022" summary="[feat]删除不需要的主题">
+      <created>1708350523978</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1708350523978</updated>
+    </task>
+    <task id="LOCAL-00023" summary="[feat]删除不需要的主题">
+      <created>1708350525869</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1708350525869</updated>
+    </task>
+    <task id="LOCAL-00024" summary="[feat]删除不需要的主题">
+      <created>1708350594890</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1708350594890</updated>
+    </task>
+    <task id="LOCAL-00025" summary="[feat]左侧栏的下拉和收起完成">
+      <created>1708418852606</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1708418852606</updated>
+    </task>
+    <task id="LOCAL-00026" summary="[feat]左侧栏的下拉和收起完成">
+      <created>1708419294478</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1708419294478</updated>
+    </task>
+    <task id="LOCAL-00027" summary="[feat]左侧栏根据路径分级的功能完成">
+      <created>1708523605925</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1708523605925</updated>
+    </task>
+    <task id="LOCAL-00028" summary="[feat]左侧边栏的分级和点击展开高亮功能实现完成">
+      <created>1708563706883</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1708563706883</updated>
+    </task>
+    <task id="LOCAL-00029" summary="[feat]完成整个blog网站最基本功能的开发，择机可以发布了">
+      <created>1708584545086</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1708584545086</updated>
+    </task>
+    <task id="LOCAL-00030" summary="[feat]完成整个blog网站最基本功能的开发，择机可以发布了">
+      <created>1708588126045</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1708588126045</updated>
+    </task>
+    <task id="LOCAL-00031" summary="[feat]改成自己的域名访问">
+      <created>1708649697349</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1708649697349</updated>
+    </task>
+    <task id="LOCAL-00032" summary="[feat]一些修改">
+      <created>1708659219396</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1708659219396</updated>
+    </task>
+    <task id="LOCAL-00033" summary="[feat]添加一些文章，和一些修改">
+      <created>1708928249409</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1708928249409</updated>
+    </task>
+    <task id="LOCAL-00034" summary="[feat]新增技术文章">
+      <created>1709168023517</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1709168023517</updated>
+    </task>
+    <task id="LOCAL-00035" summary="[feat]新增技术文章">
+      <created>1709175130898</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1709175130898</updated>
+    </task>
+    <task id="LOCAL-00036" summary="[feat]新增技术文章">
+      <created>1709188836246</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1709188836246</updated>
+    </task>
+    <task id="LOCAL-00037" summary="[feat]新增技术文章">
+      <created>1709276924430</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1709276924430</updated>
+    </task>
+    <task id="LOCAL-00038" summary="[feat]新增技术文章">
+      <created>1709611031591</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1709611031591</updated>
+    </task>
+    <task id="LOCAL-00039" summary="[feat]新增技术文章">
+      <created>1709714564682</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1709714564682</updated>
+    </task>
+    <task id="LOCAL-00040" summary="[feat]新增技术文章">
+      <created>1709716859496</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1709716859496</updated>
+    </task>
+    <task id="LOCAL-00041" summary="[feat]新增技术文章">
+      <created>1709860199483</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1709860199483</updated>
+    </task>
+    <task id="LOCAL-00042" summary="[feat]新增一篇文章">
+      <created>1710148073675</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1710148073675</updated>
+    </task>
+    <task id="LOCAL-00043" summary="[feat]新增一些文章">
+      <created>1710208332792</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1710208332792</updated>
+    </task>
+    <task id="LOCAL-00044" summary="[feat]新增一些文章">
+      <created>1710836947143</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1710836947143</updated>
+    </task>
+    <task id="LOCAL-00045" summary="[feat]新增一些文章">
+      <created>1710914617312</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1710914617312</updated>
+    </task>
+    <task id="LOCAL-00046" summary="[feat]新增一些文章">
+      <created>1711004141091</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1711004141091</updated>
+    </task>
+    <task id="LOCAL-00047" summary="[feat]新增一些文章">
+      <created>1711004146228</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1711004146228</updated>
+    </task>
+    <task id="LOCAL-00048" summary="[feat]新增一些文章">
+      <created>1711358150426</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1711358150426</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,11 +464,20 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="[feat]fix bug 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat]fix bug 2" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+    <MESSAGE value="[feat]新增二级目录文章测试" />
+    <MESSAGE value="[feat]新增二级目录文章测试,更改主题为bmw" />
+    <MESSAGE value="[feat]新增浏览页面的侧边栏，后续继续优化" />
+    <MESSAGE value="[feat]删除不需要的主题" />
+    <MESSAGE value="[feat]左侧栏的下拉和收起完成" />
+    <MESSAGE value="[feat]左侧栏根据路径分级的功能完成" />
+    <MESSAGE value="[feat]左侧边栏的分级和点击展开高亮功能实现完成" />
+    <MESSAGE value="[feat]完成整个blog网站最基本功能的开发，择机可以发布了" />
+    <MESSAGE value="[feat]改成自己的域名访问" />
+    <MESSAGE value="[feat]一些修改" />
+    <MESSAGE value="[feat]添加一些文章，和一些修改" />
+    <MESSAGE value="[feat]新增技术文章" />
+    <MESSAGE value="[feat]新增一篇文章" />
+    <MESSAGE value="[feat]新增一些文章" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat]新增一些文章" />
   </component>
 </project>

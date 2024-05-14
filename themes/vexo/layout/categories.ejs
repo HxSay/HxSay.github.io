@@ -1,0 +1,91 @@
+<div id="article-banner">
+    <%
+        var path = page.path;
+        path = path.replace(/\s/g, '');
+        var splitPath = path.split('/').filter(function(item) {
+            return item.trim() !== '';
+        });
+        var root = splitPath[0] //这里一般是顶部标题
+        var sub = splitPath[1]  //这里是侧边栏标题
+    %>
+    <h2>浣熊say&<%= root%></h2>
+    <p class="post-date"><%page.title %>致力于帮助应届生、社会人士上岸合适自己的央国企，在这个内卷的时代找到可以让自己work life balance的真国企～</p>
+</div>
+
+<main class="app-body flex-box">
+<!--    <% console.log("cata path: "+page.path) %>-->
+<!--    <div id="tag-cloud-container">-->
+<!--        <div id="tag-cloud" >-->
+<!--            <% site.categories.map(function(category, index) { %>-->
+<!--                <a class="category<%= Math.round(Math.random()*3) %>"  data-name="category-<%= category.name %>">-->
+<!--                    <%= category.name %>-->
+<!--                </a>-->
+<!--            <% }) %>-->
+<!--        </div>-->
+<!--    </div>-->
+
+    <div class="left-sidebar" id="left-sidebar">
+        <%- partial('_partial/leftsidebar', { site: site, path: page.path });%>
+    </div>
+
+    <div class="right-container">
+        <%
+            var path = page.path;
+            path = path.replace(/\s/g, '');
+            var splitPath = path.split('/').filter(function(item) {
+                return item.trim() !== '';
+            });
+            var root = splitPath[0] //这里一般是顶部标题
+            var sub = splitPath[1]  //这里是侧边栏标题
+            if (root && sub) {
+                // 筛选出根路径为当前根目录的所有文章
+                var postsFilterByRoot = site.posts.filter(function (post) {
+                    console.log("postsFilterByRoot post: " + post.path)
+                    return post.path.startsWith(root);
+                });
+                // 创建一个对象来存储聚类后的文章
+                var groupedPosts = {};
+                // 遍历筛选结果，并根据二级目录进行聚类
+                postsFilterByRoot.forEach(function(post) {
+                    var subPath = post.path.split("/")[1]; // 获取文章的二级目录
+                    // 如果当前文章的二级目录等于当前页面的二级目录，则将其添加到对应的聚类中
+                    if (!groupedPosts[subPath]) {
+                        groupedPosts[subPath] = []; // 如果该二级目录尚未存在于聚类中，则创建一个新的数组
+                    }
+                    groupedPosts[subPath].push(post); // 将文章添加到对应的二级目录聚类中
+                });
+            }
+        %>
+        <% for (var category in groupedPosts) { %>
+        <div class="tag-list">
+            <h3 class="tag-name" id="tag-<%= category %>"><%= category %></h3>
+            <ul class="tag-preview">
+
+            <% groupedPosts[category].forEach(function(post) { %>
+                    <li>
+                        <a href="<%- config.root %><%- post.path %>"><%- post.title || "Untitled" %></a>
+                    </li>
+            <% }) %>
+            </ul>
+
+        </div>
+        <% } %>
+    </div>
+
+</main>
+
+<script>
+    (function () {
+        var url = '<%= config.url %>/<%= page.path %>'
+        $('#article-banner').geopattern(url)
+        $('.header').removeClass('fixed-header')
+
+        var tag = location.hash.replace('#', '')
+        if (tag) {
+            var tagId = "#tag-" + tag;
+            $("html, body").animate({
+                scrollTop: $(tagId).offset().top
+            }, 400)
+        }
+    })();
+</script>

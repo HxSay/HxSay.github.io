@@ -1,0 +1,55 @@
+.catalog-container
+  display: block
+  //padding-left : 2em
+  padding-top : 2em
+  flex-basis: 240px
+  -webkit-flex-basis: 240px
+  flex-shrink: 0
+  -webkit-flex-shrink: 0
+  @media m-pad
+    display: none
+  .fixed-toc
+    position: fixed
+    top: 90px
+  .toc-main
+    padding-left: 12px
+    border-left: 1px solid color-border
+    width: 240px
+    box-sizing: border-box
+    overflow-y auto
+    height:  600px
+    .toc-title
+      font-size: 1.2em
+      position: relative
+      padding-left: 28px
+      //&:hover
+      //  background: rgb(0, 133, 161)
+      &:before
+        content: ''
+        position: absolute
+        width: 22px
+        height: 22px
+        left: 0
+        top: 2px
+        background: url(catalog-url) no-repeat
+        background-size: contain
+    .toc-nav
+      padding: 0
+      margin-top: 0.6em
+      margin-right: 12px
+      height : 100%;
+    ol
+      padding-left: 12px
+    li
+      list-style-type: none
+      margin-top :12px
+      font-size: 0.9em
+
+
+
+.toc-nav-text
+  color : black
+  &:hover
+    color: #42b983;
+  overflow: hidden; /* 超出隐藏 */
+  text-overflow: ellipsis; /* 显示省略号 */

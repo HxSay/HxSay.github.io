@@ -1,0 +1,273 @@
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+<div class="left-sidebar" id="left-sidebar">
+    <%
+    var pathSplits = path.split('/').filter(function(item) {
+        return item.trim() !== '';
+    });
+    var root = pathSplits[0];   //当前页面的根路径,一级目录
+    var sub = pathSplits[1];    //二级目录
+    if (root && sub) {
+        // 筛选出根路径为当前根目录的所有文章
+        var postsFilterByRoot = site.posts.filter(function(post) {
+            console.log("postsFilterByRoot post: "+post.path)
+            return post.path.startsWith(root);
+        });
+        // 创建一个对象来存储聚类后的文章
+        var groupedPosts = {};
+        // 遍历筛选结果，并根据二级目录进行聚类
+        postsFilterByRoot.forEach(function(post) {
+            var subPath = post.path.split("/")[1]; // 获取文章的二级目录
+                // 如果当前文章的二级目录等于当前页面的二级目录，则将其添加到对应的聚类中
+                if (!groupedPosts[subPath]) {
+                    groupedPosts[subPath] = []; // 如果该二级目录尚未存在于聚类中，则创建一个新的数组
+                }
+                groupedPosts[subPath].push(post); // 将文章添加到对应的二级目录聚类中
+        });
+        // 将groupedPosts按照点前面的数字排序
+        if(groupedPosts) {
+            var keys = Object.keys(groupedPosts).sort();
+            var sortedPosts = {}
+            keys.forEach(function (key) {
+                // groupedPosts[key]中的内容排序
+                sortedPosts[key] = sortedPosts[key] = groupedPosts[key].sort(function(a, b) {
+                    // 假设文章对象中有一个 title 属性，您可以根据 title 属性进行排序
+                    var titleA = a.title.toUpperCase(); // 不区分大小写排序
+                    var titleB = b.title.toUpperCase();
+                    if (titleA < titleB) {
+                        return -1;
+                    }
+                    if (titleA > titleB) {
+                        return 1;
+                    }
+                    return 0; // 标题相等
+                });
+
+            })
+            groupedPosts = sortedPosts;
+        }
+    %>
+
+        <% for (var category in groupedPosts) { %>
+            <% if(category){ %>
+                <div class="ls-title">
+<!--                    <i class="fas fa-icon-name">#</i>-->
+                    <p class="ls-tag-name"><%= category.replace(/^\d\./, "");  %></p>
+                    <i class="fas fa-chevron-right" id="arrow-icon"></i>
+                </div>
+                <ul class="ls-tag-list">
+                    <ul class="ls-tag-preview">
+                        <% groupedPosts[category].forEach(function(post) { %>
+                            <li>
+                                <a href="<%- config.root %><%- post.path %>"><%- post.title.replace(/^\d\./, "") || "Untitled" %></a>
+                            </li>
+                        <% }) %>
+                    </ul>
+                </ul>
+            <%}%>
+        <% } %>
+    <%}%>
+</div>
+
+<script>
+    // 获取当前页面的路径
+    var currentPagePath = '<%= page.path %>';
+    var pathSplits = currentPagePath.split('/').filter(function(item) {
+        return item.trim() !== '';
+    });
+    var root = pathSplits[0];   //当前页面的根路径,一级目录
+    var sub = pathSplits[1].replace(/^\d\./, "");    //二级目录
+    var title = pathSplits[2]; //三级目录，为标题
+    var isHidden = false;
+    console.log("###"+sub)
+
+    var lsTitles = document.querySelectorAll('.ls-title');
+
+    // 为每个 .ls-title 元素添加点击事件监听器
+    lsTitles.forEach(function(lsTitle) {
+        // 获取当前 .ls-title 元素关联的标签列表中的所有链接
+        var roots = lsTitle.querySelectorAll('p');
+        // 初始化一个变量，用于检查是否有匹配的链接
+        // 遍历链接，检查是否有链接与当前页面路径匹配
+        roots.forEach(function(p) {
+            // 如果有链接与当前页面路径匹配，则展开与该链接关联的左侧栏并将其标记为选中状态
+            var ptext = p.textContent
+            if(ptext === sub){
+                var lsTagList = lsTitle.nextElementSibling;
+                lsTagList.style.display = 'block';
+                lsTitle.classList.add('clicked');
+                //对于展开的子项目进行遍历，并将cell置为点击态
+                var previewListItems = lsTagList.querySelector('.ls-tag-preview').querySelectorAll('li');
+                previewListItems.forEach(function (li) {
+                    // 获取 li 元素下的 a 标签
+                    var aTag = li.querySelector('a');
+
+                    // 获取 a 标签的 href 属性值
+                    var href = aTag.getAttribute('href');
+
+                    // 使用 split 方法拆分 href，以获取路径的前两个部分
+                    href = href.replace(/\s/g, '');
+                    var splitHref = href.split('/').filter(function(item) {
+                        return item.trim() !== '';
+                    });
+
+                    // 获取前两个部分并进行拼接
+                    var liRoot = splitHref[0];
+
+                    var liSub = splitHref[1];
+
+                    var liTitle = splitHref[2]
+
+                    if(liTitle && title && liTitle === title){
+                        aTag.classList.add('clicked');
+                    }
+
+                 })
+            }
+        });
+
+        lsTitle.addEventListener('click', function() {
+            // 切换与当前 .ls-title 元素关联的标签列表的显示状态
+            var lsTagList = lsTitle.nextElementSibling;
+            var arrowIcon = lsTitle.querySelector('#arrow-icon');
+            if (lsTagList.style.display === 'none') {
+                lsTagList.style.display = 'block'; // 显示标签列表
+                lsTitle.classList.add('clicked'); // 添加点击类
+                arrowIcon.style.transform = 'rotate(90deg)';
+            } else {
+                lsTagList.style.display = 'none'; // 隐藏标签列表
+                lsTitle.classList.remove('clicked'); // 移除点击类
+                arrowIcon.style.transform = 'rotate(0deg)';
+            }
+        });
+    });
+</script>
+
+<style>
+
+    .left-sidebar {
+        display: block;
+        position: sticky;
+        top: 50px;
+        padding-left: 1em;
+        padding-top: 2em;
+        padding-right: 1em;
+        width: 300px;
+        height: 600px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .ls-tag-list {
+        flex-direction: row;
+        width: 100%;
+        margin-left: 14px;
+        margin-right: 0;
+        padding: 0;
+        display: none;
+        max-width: 300px;
+    }
+
+    .ls-tag-name {
+        font-size: 1.1em;
+        display: flex;
+        text-align: left;
+        margin-top: 0;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    .ls-tag-name:before {
+        color: white;
+        position: absolute;
+        left: -.7em;
+        top: -2px;
+        font-size: 1.5em;
+        font-weight: 700;
+
+    }
+
+    .ls-tag-preview {
+        font-size: 1em;
+        align-content: flex-start;
+        align-items: start;
+        padding: 0;
+    }
+
+    .ls-tag-preview li {
+        margin-top: 12px;
+        margin-bottom: 12px;
+        padding: 0;
+        list-style-type: none; /* 添加这一行来去掉列表项前面的点 */
+        /*white-space: nowrap; !* 防止文字换行 *!*/
+        /*overflow: hidden; !* 超出隐藏 *!*/
+        text-overflow: ellipsis; /* 显示省略号 */
+        /*width: 270px;*/
+        transition: transform 0.3s ease;
+    }
+
+    .ls-tag-preview li a {
+        border: none;
+        background: transparent;
+        color: black;
+        display: inline-block;
+        border-radius: 4px;
+        transition: background .5s;
+        margin-right: 35px;
+    }
+
+    .ls-tag-preview li a:hover {
+        transform: scale(1.05);
+        /*color: #42b983;*/
+    }
+
+    .ls-tag-preview li a.clicked {
+        /*transform: scale(1.05); !* 点击后放大 *!*/
+        color: #42b983;
+    }
+
+    .ls-title {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 8px;
+        transition: transform 0.3s ease, filter 0.3s ease; /* 添加过渡效果 */
+        white-space: nowrap;
+    }
+
+    .ls-title:hover {
+        transform: scale(1.05); /* 悬浮时放大 */
+        /*color: #42b983;!**!*/
+    }
+
+    .ls-title.clicked {
+        /*transform: scale(1.05); !* 点击后放大 *!*/
+        color: #42b983;
+    }
+
+    .ls-title.disabled {
+        filter: grayscale(1); /* 灰显 */
+    }
+
+    #arrow-icon {
+        margin-left: auto; /* 将箭头图标推到右侧 */
+        transition: transform 0.3s ease; /* 添加过渡效果 */
+        font-size: 12px;
+        padding-right: 12px;
+    }
+
+    @media screen and (max-width: 768px) {
+        .left-sidebar{
+            position: fixed;
+            top: 58px;
+            left: 0;
+            padding-left: 1em;
+            padding-right: 0;
+            display: none;
+            align-self: flex-start;
+        }
+        .post-article{
+            width: 90%;
+        }
+    }
+
+</style>

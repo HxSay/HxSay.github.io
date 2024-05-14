@@ -3,19 +3,22 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: 浣熊say
+subtitle: '专注分享成都央国企信息、Java后台、工业互联网等'
+description: '专注分享成都央国企信息、Java后台、工业互联网等相关内容'
 keywords:
-author: Tsinghua Lei
-language: en
+author: 浣熊say
+language: zh-CN
 timezone: ''
+
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://hxsay.github.io/
-permalink: :year/:month/:day/:title/
-permalink_defaults:
+url: http://42.193.22.180/
+root: /
+#permalink: :year/:month/:day/:title/
+permalink: :title/
+permalink_defaults: title/
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
@@ -40,7 +43,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
@@ -96,13 +99,32 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-#theme: landscape
-remote_theme: hydecorp/hydejack@v9
+theme: vexo
+#theme: hexo-theme-shokaX
+#remote_theme: hydecorp/hydejack@v9
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/HxSay/HxSay.github.io
-  # example, https://github.com/hexojs/hexojs.github.io
-  branch: gh-pages
+#  repo: https://github.com/HxSay/HxSay.github.io
+  repo: git@42.193.22.180:/home/git/hexo.git
+# example, https://github.com/hexojs/hexojs.github.io
+#  branch: gh-pages
+  branch: master
+# 百度主动推送
+type: baidu_url_submitter
+
+# 自动生成sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+
+# 百度主动推送
+baidu_url_submit:
+  count: 200 # 提交最新的五个链接
+  host: https://hxsay.com # 在百度站长平台中注册的域名
+  token: 9OTI0UeDylu4RYbd  # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+  path: baidu_urls.txt  # 文本文档的地址， 新链接会保存在此文本文档里
